@@ -1,2 +1,2 @@
 # Aerospike_Development_Guide
-开发指南
+开发
