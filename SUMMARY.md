@@ -6,7 +6,7 @@
    * [功能指南-它是什么](teschenology/feature/gong_neng_zhi_5357-_ta_shi_shi_yao.md)
 * [开发[DEVELOPMENT]](devlopment/kai_53d15b_development_].md)
    * [客户端](devlopment/client/ke_hu_duan.md)
-   * 开发指南
+   * [开发指南](devlopment/guides/kai_fa_zhi_nan.md)
    * Aerospike Connectors
 * [部署[DEPLOYMENT]](deployment/bu_7f725b_deployment_].md)
    * 部署指南
