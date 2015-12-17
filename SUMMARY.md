@@ -4,5 +4,4 @@
    * [as是什么](asshi_shi_yao.md)
    * [数据管理](shu_ju_guan_li.md)
        * [数据模型](shu_ju_mo_xing.md)
-* [分布式](fen_bu_shi.md)
 
