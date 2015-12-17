@@ -7,7 +7,7 @@
 * [开发[DEVELOPMENT]](devlopment/kai_53d15b_development_].md)
    * [客户端](devlopment/client/ke_hu_duan.md)
    * [开发指南](devlopment/guides/kai_fa_zhi_nan.md)
-   * Aerospike Connectors
+   * [Aerospike Connectors](devlopment/connectors/aerospike_connectors.md)
 * [部署[DEPLOYMENT]](deployment/bu_7f725b_deployment_].md)
    * 部署指南
    * 操作手册
