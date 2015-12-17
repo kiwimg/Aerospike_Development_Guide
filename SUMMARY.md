@@ -9,5 +9,6 @@
    * 开发指南
    * Aerospike Connectors
 * [部署[DEPLOYMENT]](deployment/bu_7f725b_deployment_].md)
+   * 部署指南
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
 
