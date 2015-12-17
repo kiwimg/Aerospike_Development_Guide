@@ -13,4 +13,5 @@
    * 操作手册
    * 参考手册
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
+   * 管理控制台
 
