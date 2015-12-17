@@ -9,7 +9,7 @@
    * [开发指南](devlopment/guides/kai_fa_zhi_nan.md)
    * [Aerospike Connectors](devlopment/connectors/aerospike_connectors.md)
 * [部署[DEPLOYMENT]](deployment/bu_7f725b_deployment_].md)
-   * 部署指南
+   * [部署指南](deployment/guides/bu_shu_zhi_nan.md)
    * 操作手册
    * 参考手册
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
