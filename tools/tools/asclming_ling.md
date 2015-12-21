@@ -15,6 +15,13 @@ ascli的基本用法：
 以下是可供选择的ascli：
 
 * --path=<path>
-对于ascli命令指定的搜索路径（C程序）
 
-Specify the search path for ascli commands (C executables)
+ 对于ascli命令指定的搜索路径（C语言的可执行程序）
+
+* --list
+
+  list可用的命令列表
+
+* --help
+ 
+   Show help message
