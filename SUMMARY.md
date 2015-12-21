@@ -16,6 +16,7 @@
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * 配置参考
        * 命令信息参考
+       * 度量基准
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
    * [管理控制台](tools/management/guan_li_kong_zhi_tai.md)
        * [安装](tools/management/anzhuang_md.md)
