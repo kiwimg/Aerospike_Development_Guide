@@ -14,7 +14,7 @@
        * [概要](deployment/operations/gai_yao.md)
        * [计划](deployment/operations/ji_hua.md)
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
-       * 配置参考
+       * [配置参考](deployment/reference/pei_zhi_can_kao.md)
        * [命令信息参考](deployment/reference/ming_ling_xin_xi_can_kao.md)
        * [度量基准](deployment/reference/du_liang_ji_zhun.md)
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
