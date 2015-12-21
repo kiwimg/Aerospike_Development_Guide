@@ -17,5 +17,6 @@
        * [安装](tools/management/tools/management/an_zhuang.md)
            * [Install on Red Hat and Centos](tools/management/installon_red_hat_and_centos_md.md)
        * [配置](tools/management/pei_zhi.md)
+       * 用户指南
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
 
