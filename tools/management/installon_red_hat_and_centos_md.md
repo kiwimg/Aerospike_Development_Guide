@@ -68,3 +68,8 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
 一旦你的安装文件位于服务器上，你可以通过发布标准的rpm命令安装AMC：
 
 sudo rpm -ivh aerospike-amc-<version>.rpm
+
+
+### 下一步
+
+看到AMC用户指南说明如何启动/停止服务器及其使用方法。
