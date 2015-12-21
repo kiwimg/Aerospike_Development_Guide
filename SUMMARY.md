@@ -28,6 +28,6 @@
        * 命令行实用工具（CLI）
        * 日志延迟工具（asloglatency）
        * As 运行信息工具(asinfo)
-       * as管理工具(asadm)
+       * [as管理工具(asadm)](tools/tools/asguan_li_gong_517728_asadm.md)
        * [ascl命令](tools/tools/asclming_ling.md)
 
