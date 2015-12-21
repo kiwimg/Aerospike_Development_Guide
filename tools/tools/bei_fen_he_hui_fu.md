@@ -64,5 +64,10 @@ asrestore读取备份文件从指定的路径带着--directory选项。或者,�
 
 以下asrestore命令行选项修改写的策略
 
+* --unique - Do not touch any existing records, regardless of generation counts.
+* --no-generation - Overwrite any existing records, regardless of generation counts.
+* --replace - When restoring a record from the backup, do not preserve bins that are not present in the backup.
+
+
 
 
