@@ -15,6 +15,6 @@
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
    * [管理控制台](tools/management/guan_li_kong_zhi_tai.md)
        * [安装](tools/management/tools/management/an_zhuang.md)
-           * [Install on Red Hat and Centos](tools/management/tools/management/install_on_red_hat_and_centos.md)
+           * [Install on Red Hat and Centos](tools/management/installon_red_hat_and_centos_md.md)
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
 
