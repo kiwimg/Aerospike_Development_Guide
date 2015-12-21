@@ -46,13 +46,9 @@ asrestore运行的最基本的形式是指定群集恢复（主机）和本地�
 
 >```$ asrestore --host 1.2.3.4 --directory backup_2015_08_24```
 
-默认情况下,备份恢复到命名空间,这是来自。--namespace选项可以用来恢复到一个不同的--namespace。假设以上备份namespace test ,我们想恢复namespace。我们会发出以下命令。
-
-默认情况下，该备份恢复到它已从。命名空间选项可以用来恢复到不同的命名空间。假设上述备份是从测试结果和我们想恢复它的命名空间的产品我们就发出下面的命令。
+默认情况下,备份恢复到命名空间,这是来自。--namespace选项可以用来恢复到一个不同的--namespace。假设以上备份namespace test ,我们想恢复namespace。我们采用下面的命令。
 
 >```$ asrestore --host 1.2.3.4 --directory backup_2015_08_24 --namespace test,prod```
-
-By default, the backup is restored to the namespace that it was taken from. The --namespace option can be used to restore to a different namespace. Suppose that the above backup was taken from namespace test and we would like to restore it to namespace prod. We would then issue the following command.
 
 
 
