@@ -1,2 +1,3 @@
-# 监控
+# 监控Aerospike Monitor - asmonitor
 
+当你开始监控as性能的时候使用Aerospike的asmonitor命令工具，调整配置设置和诊断问题与您的集群。这些页描述如何运行asmonitor和各种命令，您可以使用从asmonitor控制台来监控你的Aerospike数据库。
