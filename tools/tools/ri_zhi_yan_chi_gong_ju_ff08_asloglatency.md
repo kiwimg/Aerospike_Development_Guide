@@ -5,3 +5,4 @@ aerospike日志延迟工具（asloglatency）分析aerospike日志文件和返�
 
 ## 用法
 
+您在命令行运行该工具，并提供选项参数。使用“帮助”选项来显示选项列表。
