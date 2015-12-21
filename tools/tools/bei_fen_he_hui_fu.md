@@ -52,8 +52,13 @@ asrestore运行的最基本的形式是指定群集恢复（主机）和本地�
 
 asrestore读取备份文件从指定的路径带着--directory选项。或者,如果备份包含一个--output-file 选项创建的输入文件作为备份，the --input-file 选项 可以使asrestore读取单个文件或标准输入。
 
-写的策略 The Write Policy
 
+## 写的策略 The Write Policy
 
+读取数据恢复到一个namespace在一个集群中使用标准的client API来存储records。namespace可能已经包含现有records,默认情况下,写策略如下机制运行。
 
+* If the record from the backup is expired (based on its TTL value), it is ignored.
+* If the record does not exist in the namespace, it is restored from the backup.
+* If a newer version of the record (higher or same generation count) exists in the namespace, the record from the backup is ignored.
+* If an older version of the record (lower generation count) exists in the namespace, the record is restored from the backup. If the record in the namespace contains bins that are not present in the backup, those bins are preserved.
 
