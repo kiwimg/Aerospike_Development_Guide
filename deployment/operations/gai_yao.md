@@ -22,7 +22,16 @@ Install on Linux - how to install on Red Hat, Ubuntu, Debian and other Linux dis
 
 
 ### 配置
+aerospike是一个单个配置文件，在每个数据库节点指定网络参数，命名空间、日志和数据复制。对于一个给定的命名空间，在配置文件中的大多数信息将是相同的。
 
+* Amazon EC2 - recommendations for configuring port, ip address, heartbeat mode, rack awareness and other parameters
+* Google Cloud Compute - recommendations for configuring network, firewall, and clusters
+* Network - configure port, ip address, heartbeat mode, rack awareness and other parameters
+* Namespace - configure data storage location, data retention and data replication
+* Log - configure log location and logging level, and learn use of logrotate tool
+* Datacenter Replication - establish and configure Cross Datacenter Replication (XDR) for
+* Aerospike Enterprise Edition customers (set parameters, establish topology, configure network and specify data replication)
+* Non-Root - set-up Aerospike to run as a non-root user
 
 ### 升级
 
