@@ -1,3 +1,5 @@
 # 监控Aerospike Monitor - asmonitor
 
 当你开始监控as性能的时候使用Aerospike的asmonitor命令工具，调整配置设置和诊断问题与您的集群。这些页描述如何运行asmonitor和各种命令，您可以使用从asmonitor控制台来监控你的Aerospike数据库。
+
+asmonitor安装在‘/opt/aerospike/bin/asmonitor’，asmonitor可以得到服务器和集群的统计信息，并且显示一个容易约读的格式，asmonitor也允许动态改变节点或者集群的配置参数，从asmonitor输出可以定制显示不同的值。
