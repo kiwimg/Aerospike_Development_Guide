@@ -29,4 +29,5 @@
        * 日志延迟工具（asloglatency）
        * As 运行信息工具(asinfo)
        * as管理工具(asadm)
+       * ascl命令
 
