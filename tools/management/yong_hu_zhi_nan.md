@@ -1,8 +1,9 @@
 # 用户指南
 
-AMC的用户指南已经分裂成2个不同的部分来反映2个不同的版本。AMC企业版包括所有AMC的社区版的特点。
+AMC的用户指南已经分成2个不同的部分来反映2个不同的版本。AMC企业版包括所有AMC的社区版的特点。
 
 AMC Community Edition
+
 AMC Enterprise Edition
 
 Common tasks
