@@ -54,3 +54,7 @@ aerospike日志延迟工具（asloglatency）分析aerospike日志文件和返�
   max         1.74   0.11   0.00   1957.7
 ```
  
+ >```按回车键或Ctrl + C停止脚本并显示平均值和最大值。```
+ 
+ 直方图桶说明事件的分布。1列包含writes_master未完成在1 ms内第二列包含writes_master未完成后8毫秒计数的计数
+ 
