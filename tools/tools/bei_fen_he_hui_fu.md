@@ -62,3 +62,7 @@ asrestore读取备份文件从指定的路径带着--directory选项。或者,�
 * If a newer version of the record (higher or same generation count) exists in the namespace, the record from the backup is ignored.
 * If an older version of the record (lower generation count) exists in the namespace, the record is restored from the backup. If the record in the namespace contains bins that are not present in the backup, those bins are preserved.
 
+以下asrestore命令行选项修改写的策略
+
+
+
