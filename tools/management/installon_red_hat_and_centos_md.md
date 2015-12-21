@@ -51,3 +51,20 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
     ```sudo pip install bcrypt```
 
 
+
+### 下载rpm 文件
+
+
+对于AMC的下载位置取决于版本
+
+
+|版本| 描述 |
+| -- | -- |
+| Community| 这是自由可用的版本，具有所有的基本功能。 |
+| Enterprise| 企业版包含了更先进的管理功能，包括对集群配置进行动态修改的能力。客户与企业版订阅可下载此。|
+
+
+### 安装 rpm 文件
+一旦你的安装文件位于服务器上，你可以通过发布标准的rpm命令安装AMC：
+
+sudo rpm -ivh aerospike-amc-<version>.rpm
