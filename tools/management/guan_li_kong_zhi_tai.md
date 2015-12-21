@@ -11,7 +11,7 @@
 | Cluster RAM Usage| √ | √  |
 | Cluster Summary| √ | √  |
 | Cluster Throughput | √ | √  |
-|Nodes| √ | √  |
+| Nodes | √ | √  |
 | Namespaces | √ | √  |
 | Definitions | √ | √  |
 | Jobs [Running Jobs] | √ | √  |
