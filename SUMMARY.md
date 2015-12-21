@@ -19,6 +19,6 @@
        * [用户指南](tools/management/yong_hu_zhi_nan.md)
            * [社区版](tools/management/she_qu_ban.md)
        * [配置](tools/management/pei_zhi.md)
-       * 故障排除
+       * [故障排除](tools/management/gu_zhang_pai_chu.md)
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
 
