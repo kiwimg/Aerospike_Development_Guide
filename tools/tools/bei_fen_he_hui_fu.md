@@ -28,6 +28,7 @@ aerospike提供的能力来备份和恢复您的集群数据。正常情况下�
 
 运行作为备份的最基本形式是指定群集备份（host），namespace的备份（--namespace），以及备份文件的本地目录（目录）。假设我们有一个集群包含一个IP地址1.2.3.4节点。备份这集群测试namespace目录 backup_2015_08_24，我们会使用下面的命令。
 
+>```$ asbackup --host 1.2.3.4 --namespace test --directory backup_2015_08_24```
 
 The most basic form of running asbackup is to just specify the cluster to backup (--host), the namespace to backup (--namespace), as well as the local directory for the backup files (--directory). Suppose that we have a cluster that contains a node with IP address 1.2.3.4. To backup the test namespace on this cluster to the directory backup_2015_08_24, we would issue the following command.
 
