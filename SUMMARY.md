@@ -16,8 +16,8 @@
    * [管理控制台](tools/management/guan_li_kong_zhi_tai.md)
        * [安装](tools/management/anzhuang_md.md)
            * [Install on Red Hat and Centos](tools/management/installon_red_hat_and_centos_md.md)
+       * [用户指南](tools/management/yong_hu_zhi_nan.md)
+           * [社区版](tools/management/she_qu_ban.md)
        * [配置](tools/management/pei_zhi.md)
-   * [用户指南](tools/management/yong_hu_zhi_nan.md)
-       * [社区版](tools/management/she_qu_ban.md)
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
 
