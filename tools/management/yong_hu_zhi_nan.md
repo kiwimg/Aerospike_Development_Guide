@@ -1,10 +1,10 @@
 # 用户指南
 
-AMC User Guide
-The AMC User Guide has been split into 2 different parts to reflect the 2 different editions. AMC Enterprise Edition includes all the features of AMC Community Edition.
+AMC的用户指南已经分裂成2个不同的部分来反映2个不同的版本。AMC企业版包括所有AMC的社区版的特点。
 
 AMC Community Edition
 AMC Enterprise Edition
+
 Common tasks
 There are many common tasks that you may need to do. The following commands work for either edition of the AMC.
 
