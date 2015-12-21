@@ -50,10 +50,13 @@ asrestore运行的最基本的形式是指定群集恢复（主机）和本地�
 
 >```$ asrestore --host 1.2.3.4 --directory backup_2015_08_24 --namespace test,prod```
 
-asrestore读取指定的目录和目录选择备份文件。或者,如果一个文件的备份包括asbackup——输出文件选项，可以使asrestore读取单个文件或标准输入。
+asrestore读取备份文件从指定的路径。或者,如果一个文件的备份包括asbackup——输出文件选项，可以使asrestore读取单个文件或标准输入。
 
 
+asrestore reads backup files from the directory specified with the --directory option. Alternatively, if the backup consists of a single file created with the --output-file option of asbackup, 
 
+
+the --input-file option can be used to make asrestore read that single file or stdin
 
 
 
