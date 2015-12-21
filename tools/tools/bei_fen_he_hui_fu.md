@@ -68,6 +68,10 @@ asrestore读取备份文件从指定的路径带着--directory选项。或者,�
 * --no-generation - Overwrite any existing records, regardless of generation counts.
 * --replace - When restoring a record from the backup, do not preserve bins that are not present in the backup.
 
+>一般来说,记录是自动写的。然而,这并不适用于LDT bins。有关更多信息,请联系Aerospike Support for more information.
+
+>asrestore只会恢复备份版本3.0或更高版本。恢复备份从2.0版本到3.0版本请联系 Aerospike Support.
+
 
 
 
