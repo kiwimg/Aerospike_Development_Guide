@@ -22,6 +22,6 @@
        * [故障排除](tools/management/gu_zhang_pai_chu.md)
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
        * [备份和恢复](tools/tools/bei_fen_he_hui_fu.md)
-           * 备份 (asbackup)
+           * [备份 (asbackup)](tools/tools/bei_fen__asbackup.md)
            * 恢复 (asrestore)
 
