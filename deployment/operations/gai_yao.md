@@ -8,10 +8,10 @@
 
 * Linux 容量规划-计算总存储，内存和吞吐量的硬件要求
 * Google Cloud Compute Capacity Planning - performance numbers factored with your application's
-* 内存需求将有助于确定正确的机器类型。
-* Server Hardware - determine what hardware to use
-* Flash Storage - specialized considerations for taking advantage of flash storage
-* Network - how Aerospike uses the network
+* 内存需求将有助于确定合适的机型。
+* 服务器硬件 - 确定要使用什么样的硬件
+* 闪存存储 - 专门考虑采取闪存存储的优势
+* 网络 - aerospike如何使用网络
 
 
 ### 安装
