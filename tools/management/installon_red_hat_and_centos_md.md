@@ -29,3 +29,25 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
 企业版本[Enterprise Edition]
 
 如何安装AMC的企业版使用更高级的功能，需要一些额外的的要求:
+
+* 需要安装ansible 在机器上，具体操作参照
+  http://www.ansibleworks.com/docs/intro_installation.html.
+
+* 如果你希望不使用root用户运行AMC，你可以使用sudo 用户权限，添加sudo文件(/etc/sudoers)一行 使用visudo：
+```<user> ALL=(ALL:ALL) NOPASSWD: ALL```
+
+* 安装pip. 你可以找到安装说明： https://pip.pypa.io/en/latest/installing.html
+
+* 你应该安装以下使用PIP的命令：
+    
+    ```sudo pip install markupsafe```
+    
+    ```sudo pip install paramiko```
+    
+    ```sudo pip install ecdsa```
+    
+    ```sudo pip install pycrypto```
+    
+    ```sudo pip install bcrypt```
+
+
