@@ -26,4 +26,5 @@
            * 恢复 (asrestore)
        * 监控
        * 命令行实用工具（CLI）
+       * 日志延迟工具（asloglatency）
 
