@@ -21,8 +21,6 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
 
 如果系统缺少以上几个。你可以通过以下这个命令安装
 
-sudo yum install <package>
+```sudo yum install <package>```
 
-
----
-
+这里的<package> 就是缺少的package.
