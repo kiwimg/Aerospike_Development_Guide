@@ -26,7 +26,7 @@
            * 恢复 (asrestore)
        * 监控
        * 命令行实用工具（CLI）
-       * 日志延迟工具（asloglatency）
+       * [日志延迟工具（asloglatency）](tools/tools/ri_zhi_yan_chi_gong_ju_ff08_asloglatency.md)
        * [As 运行信息工具(asinfo)](tools/tools/as_yun_xing_xin_xi_gong_517728_asinfo.md)
        * [as管理工具(asadm)](tools/tools/asguan_li_gong_517728_asadm.md)
        * [ascl命令](tools/tools/asclming_ling.md)
