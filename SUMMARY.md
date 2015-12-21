@@ -23,7 +23,7 @@
    * [工具和实用程序](tools/tools/gong_ju_he_shi_yong_cheng_xu.md)
        * [备份和恢复](tools/tools/bei_fen_he_hui_fu.md)
            * [备份 (asbackup)](tools/tools/bei_fen__asbackup.md)
-           * 恢复 (asrestore)
+           * [恢复 (asrestore)](tools/tools/hui_fu__asrestore.md)
        * [监控](tools/tools/jian_kong.md)
        * [命令行实用工具（CLI）](tools/tools/ming_ling_xing_shi_yong_gong_ju_ff08_cli.md)
        * [日志延迟工具（asloglatency）](tools/tools/ri_zhi_yan_chi_gong_ju_ff08_asloglatency.md)
