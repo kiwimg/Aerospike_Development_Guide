@@ -15,7 +15,9 @@
 
 
 ### 安装
+本节介绍如何在Amazon EC2上，不同的Linux发行版，OS X操作系统，Windows和一些云服务提供商安装aerospike。
 
+Install on Linux - how to install on Red Hat, Ubuntu, Debian and other Linux distributions
 
 
 
