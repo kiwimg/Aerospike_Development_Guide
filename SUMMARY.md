@@ -14,7 +14,7 @@
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
    * [管理控制台](tools/management/guan_li_kong_zhi_tai.md)
-       * [安装](tools/management/tools/management/an_zhuang.md)
+       * [安装](tools/management/anzhuang_md.md)
            * [Install on Red Hat and Centos](tools/management/installon_red_hat_and_centos_md.md)
        * [配置](tools/management/pei_zhi.md)
        * [用户指南](tools/management/yong_hu_zhi_nan.md)
