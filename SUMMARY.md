@@ -25,4 +25,5 @@
            * [备份 (asbackup)](tools/tools/bei_fen__asbackup.md)
            * 恢复 (asrestore)
        * 监控
+       * 命令行实用工具（CLI）
 
