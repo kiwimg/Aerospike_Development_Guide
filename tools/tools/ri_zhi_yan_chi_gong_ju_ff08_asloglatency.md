@@ -58,3 +58,7 @@ aerospike日志延迟工具（asloglatency）分析aerospike日志文件和返�
  
  直方图桶说明事件的分布。1列包含writes_master未完成在1 ms内第二列包含writes_master未完成后8毫秒计数的计数
  
+ 
+ asloglatency不在0和1之间的增量计算。如果你需要测量亚毫秒延迟时间，你可以测量它们，并计算在客户端的平均值。
+ 
+ 
