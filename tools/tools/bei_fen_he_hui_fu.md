@@ -30,7 +30,6 @@ aerospike提供的能力来备份和恢复您的集群数据。正常情况下�
 
 >```$ asbackup --host 1.2.3.4 --namespace test --directory backup_2015_08_24```
 
-The most basic form of running asbackup is to just specify the cluster to backup (--host), the namespace to backup (--namespace), as well as the local directory for the backup files (--directory). Suppose that we have a cluster that contains a node with IP address 1.2.3.4. To backup the test namespace on this cluster to the directory backup_2015_08_24, we would issue the following command.
 
 
 
