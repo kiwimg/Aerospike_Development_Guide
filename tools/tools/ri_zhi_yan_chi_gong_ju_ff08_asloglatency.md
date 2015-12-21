@@ -12,4 +12,18 @@ aerospike日志延迟工具（asloglatency）分析aerospike日志文件和返�
 
 
 ## 选项
+| Option | Default | Description |
+| -- | -- | -- |
+| -l | /var/log/aerospike.log |aerospike 日志文件 |
+| -h |  | (required) Name of the histogram to query. |
+| -t | 10 | Analysis slice interval in seconds or time format,Time Format: 1:00:00 |
+| -f | tail | Log time from which to analyze. May use the following formats: head, 'Sep 22 2011 22:40:14', -3600, or -1:00:00. |
+| -d | | Maximum time period to analyze. May use the following formats: 3600 or 1:00:00.|
+| -n | 3 | Number of buckets to display.|
+| -e | 3| Show the 0-th and then every n-th bucket.|
+| -r | Disabled | Run until user presses return key or ctrl-c. ``` Auto enabled if -f tail.``` |
+
+
+
+## 例子
 
