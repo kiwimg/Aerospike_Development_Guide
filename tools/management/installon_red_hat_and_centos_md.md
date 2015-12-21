@@ -24,3 +24,8 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
 ```sudo yum install <package>```
 
 这里的<package> 就是缺少的package.
+
+
+企业版本[Enterprise Edition]
+
+如何安装AMC的企业版使用更高级的功能，需要一些额外的的要求:
