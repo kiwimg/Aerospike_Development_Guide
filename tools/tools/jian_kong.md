@@ -23,3 +23,16 @@ asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的
 
 
 你第一次使用asmonitor必须使用-h选项指定一个种子节点。如果没有指定H，那么它将默认为localhost。一旦连接到节点，那么集群中的其他节点会自动发现。后续的调用asmonitor不要因为配置保存在配置文件需要种子节点。
+
+
+asmonitor配置管理配置文件位于~ /。asmonitor/asmonitor.conf。配置文件创建asmonitor第一次调用之后。
+
+
+The configuration file looks like this:
+
+>```[main]
+  hosts = <host>[:<port>][,...]
+  namespaces = <namespace>[,...]List of namespaces (auto generated. user should not edit)
+  crawl = (True | False) True Find all nodes in cluster- Works only with internal IPs
+  xdr = False. Disabled by default. To enable'xdr=True'
+  xdrport=xdr monitor port```
