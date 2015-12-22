@@ -87,8 +87,7 @@ dpkg -i aerospike-tools-*.ubuntu12.04.x86_64.deb
 ## Run Aerospike
 
 
-Aerospike includes an init script for running the server, located in /etc/init.d/aerospike. This script will manage the Aerospike Server Daemon (asd) located in /usr/bin.
+Aerospike includes an init script for running the server, located in ./bin/aerospike. This script will manage the Aerospike Server Daemon (asd) located in ./bin.
 
-An in-memory test namespace is configured by default. Please see the configuration section to add storage devices, configure a cluster, and tune your configuration to your hardware.
 
-If you change the user for the Aerospike process, then you will need to ensure the user has read and write permissions for /var/log/aerospike and /opt/aerospike.
+>The aerospike instance will store log files in ./var/log and system data in ./share. If you change the user for the Aerospike process, then you will need to ensure the user has permissions for ./var/log and ./share.
