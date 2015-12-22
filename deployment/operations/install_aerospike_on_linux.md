@@ -72,14 +72,16 @@ Or if your distribution does not include a copy of wget, you can use curl:
 在安装期间如果有错误,请参考故障[排除指南](http://www.aerospike.com/docs/operations/troubleshoot/install/)。
 
 
-##Run
+## Run
 
+#### Start Aerospike
+>```sudo service aerospike start```
 
+#### 检查运行状态 Verify Aerospike is Running
 
+>```sudo service aerospike status```
 
-
-
-
+你也可以查看服务器日志 位置在/var/log/aerospike/aerospike.log
 
 
 
