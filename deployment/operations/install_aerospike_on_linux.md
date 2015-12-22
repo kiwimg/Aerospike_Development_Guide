@@ -33,3 +33,5 @@ sudo tail -f /var/log/aerospike/aerospike.log | grep cake
 Or if your distribution does not include a copy of wget, you can use curl:
 
 >```curl -L 'http://www.aerospike.com/download/server/latest/artifact/el6' > aerospike.tgz```
+
+有关发布的详细访问该[下载页](http://www.aerospike.com/download/server/3.7.0.2/)。
