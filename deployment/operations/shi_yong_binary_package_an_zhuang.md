@@ -81,3 +81,5 @@ dpkg -i aerospike-tools-.debian7.x86_64.deb
 # Ubuntu 12.04 LTS or newer:
 dpkg -i aerospike-tools-*.ubuntu12.04.x86_64.deb
 ```
+
+此安装将增加有用的工具在 /opt/aerospike/bin 和 连接[link] them from /usr/bin.
