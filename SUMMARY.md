@@ -20,6 +20,7 @@
            * 延迟[Latency]
        * [调优](deployment/operations/diao_you.md)
            * [监控关键指标](deployment/operations/jian_kong_guan_jian_zhi_biao.md)
+           * 延迟[Latency]
        * [故障排除](deployment/operations/gu_zhang_pai_chu.md)
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
