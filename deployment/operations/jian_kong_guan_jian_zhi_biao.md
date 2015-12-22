@@ -21,8 +21,8 @@
 | available_pct <br>Category: storage<br>Location: namespace  | ```IF available_pct drops below 20% THEN may indicate that defrag is unable to keep up with the current load, warn operations ```<br>```IF available_pct drops below 15% THEN critical alert to operations, usable disk resources are critically low may result in a stop-writes if situation if available_pct drops drops below 5%.``` |
 | cluster_size<br>Category: network<br>Location: statistics |``` IF cluster_size does not equal the expected cluster size and cluster in not undergoing maintenance THEN Operations need to investigate the cause.``` |
 | hwm-breached<br>Category: storage<br>Location: namespace | ```IF hwm-breached is true THEN alert operations that memory or disk resources are strained, may indicate need to increase cluster capacity. ```|
-| 0:5 | 1:5 |
-| 0:6 | 1:6 |
-| 0:7 | 1:7 |
+| stop-writes<br>Category: storage<br>Location: namespace |``` IF stop-writes is true THEN critical alert to operations, system has entered stop-writes mode, until cause is reverted system will reject all writes from the Application.```|
+| timediff_lastship_cur_secs<br>Category: service<br>Location: xdr|```Number of seconds it took since the last shipment was logged to when it was finally sent to remote cluster. This is an approximation of latency between what has been comitted locally to what has been shipped.``` |
+| xdr-uptime<br>Category: service<br>Location: xdr| ```IF xdr-uptime is below 300 and the cluster is not undergoing maintenance THEN This XDR on this node was restarted within the last 5 minutes.```|
 
 
