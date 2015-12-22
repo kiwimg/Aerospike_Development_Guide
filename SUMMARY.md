@@ -18,6 +18,7 @@
            * [使用Binary Package安装](deployment/operations/shi_yong_binary_package_an_zhuang.md)
        * [配置](deployment/operations/pei_zhi.md)
        * 调优
+       * 故障排除
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
        * [命令信息参考](deployment/reference/ming_ling_xin_xi_can_kao.md)
