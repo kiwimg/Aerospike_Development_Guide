@@ -18,3 +18,17 @@
 ## asinfo
 
 >```Monitor> asinfo [-v <value>] [-h <host>[:<port>][, ...]] [-p <port>]```
+
+
+### stat
+
+>```Monitor> stat [-v <value>] [-h <host>[:<port>][, ...]] [-p <port>]```
+
+
+### compareconfig
+
+>``` Monitor> compareconfig [-h <host>[:<port>][, ...]] [-p <port>]```
+
+### checkmem
+
+>```Monitor> checkmem```
