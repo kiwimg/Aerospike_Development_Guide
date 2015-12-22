@@ -29,8 +29,7 @@ optional arguments:
 ```
 
 
-执行asadm后您将会收到一个“管理>”提示,输入帮助和按换取的命令列表和描述。
-After executing asadm you will receive an 'Admin>' prompt, type help and press return for a list of commands and descriptions.
+执行asadm后您将会收到一个 'Admin>' 提示,提示式帮助和命令的列表和说明，按回车。
 
 
 ```javascript
