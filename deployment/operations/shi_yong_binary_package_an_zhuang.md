@@ -27,3 +27,7 @@ sudo tail -f ./var/log/aerospike/aerospike.log | grep cake
 
 
 有关发布的详细访问该[下载页](http://www.aerospike.com/download)。
+
+
+## Install Aerospike
+如果已经在服务器安装过，可以跳过此步骤，启动aerospike
