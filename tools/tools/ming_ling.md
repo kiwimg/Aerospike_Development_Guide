@@ -51,3 +51,13 @@
 ### remove
 
 >```Monitor> remove -h <host>[:<port>][,...] [-p <port>]```
+
+
+### edittable
+
+>```Monitor> edittable```
+
+
+### sorttable
+
+>```Monitor> sorttable```
