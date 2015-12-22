@@ -20,7 +20,7 @@
 | -- | -- |
 | available_pct <br>Category: storage<br>Location: namespace  | ```IF available_pct drops below 20% THEN may indicate that defrag is unable to keep up with the current load, warn operations ```<br>```IF available_pct drops below 15% THEN critical alert to operations, usable disk resources are critically low may result in a stop-writes if situation if available_pct drops drops below 5%.``` |
 | cluster_size<br>Category: network<br>Location: statistics |``` IF cluster_size does not equal the expected cluster size and cluster in not undergoing maintenance THEN Operations need to investigate the cause.``` |
-| 0:4 | 1:4 |
+| hwm-breached<br>Category: storage<br>Location: namespace | ```IF hwm-breached is true THEN alert operations that memory or disk resources are strained, may indicate need to increase cluster capacity. ```|
 | 0:5 | 1:5 |
 | 0:6 | 1:6 |
 | 0:7 | 1:7 |
