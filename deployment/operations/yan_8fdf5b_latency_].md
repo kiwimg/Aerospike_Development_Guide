@@ -46,12 +46,8 @@ Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:72) (08: 0000000035) (09: 0000000
 ### Histogram Data说明解释
 为了解释histogram data，我们建议使用asloglatency，包含在我们的Aerospike工具包里。有关使用的更多信息，请参阅日志[延迟工具](http://www.aerospike.com/docs/tools/asloglatency/)。此实用程序有助于分析日志文件，并返回指定时间片的延迟测量（如操作的百分比）。
 
-只是作为一个例子,让我们看看样品直方图并不是表现良好的一个节点。节点收到77160037读请求,62856557人完成在1毫秒(81%)以来重新启动。13(最终)间隔显示了111289个请求需要女士4096年到8192年才能完成。为该节点(我们更换驱动器)。这表明读期间表现不佳但为了解释性能退化的特定的时间后,我们需要使用asloglatency工具。
 
-只作为一个例子，让我们看一个节点的样本histogram，这是没有表现良好。该节点接收了77160037读请求，62856557在1毫秒（81%）下完成，因为它被重新启动。第十三（最终）的时间间隔显示111289个请求所需的4096至8192毫秒完成。（我们更换了硬盘这个节点。）这说明在读但为了解释它的性能退化的具体时间后表现不佳，我们需要用asloglatency工具。
-
-Just as an example, let's look at sample histogram for a node that is not performing well. The node received 77,160,037 read requests and 62,856,557 were completed in under 1 ms (81%) since it was restarted. The 13th (final) interval shows 111,289 requests required 4096 to 8192 ms to complete. (We replaced the drives for this node.) This shows poor performance during reads but in order to interpret the specific time post which the performance degraded, we would need to use asloglatency tool.
-
+只作为一个例子，让我们看一个节点的样本histogram，该节点并不是表现良好。该节点接收了77160037读请求，62856557在1毫秒（81%）下完成，因为它被重新启动。第13个（最终）的时间间隔显示111289个请求所需的4096至8192毫秒完成。（我们更换了硬盘这个节点。）这说明在读但为了解释它的性能退化的具体时间后表现不佳，我们需要用asloglatency工具。
 ```java 
 Feb 21 2013 19:29:29 GMT: INFO (info): (hist.c:49) histogram dump: reads (77160037 total)
 Feb 21 2013 19:29:29 GMT: INFO (info): (hist.c:64)  (00: 0062856557)  (01: 0006010842)  (02: 0002984053)  (03: 0001201477) 
