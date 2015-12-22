@@ -79,7 +79,6 @@ Aerospike 包括一个初始化运行脚本, 位置在/etc/init.d/aerospike. 这
 
 如果你改变Aerospike 用户进程,那么您将需要确保用户读写权限/var/log/aerospike和/opt/aerospike。
 
-If you change the user for the Aerospike process, then you will need to ensure the user has read and write permissions for /var/log/aerospike and /opt/aerospike.
 
 >4. Start Aerospike
 >```sudo service aerospike start```
