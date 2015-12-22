@@ -53,7 +53,17 @@ sudo tail -f ./var/log/aerospike/aerospike.log | grep cake
 ```
 >4.Install Aerospike Tools
 
->Superuser privileges (sudo) may be required to install Aerospike tools.
-超级用户权限（sudo）可能需要安装气动工具。
+>```安装这个工具需要.超级用户权限（sudo）。```
 
+要安装工具包，下载下列包之一：
 
+```ruby
+# Red Hat Variants:
+wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifact/el6'
+# Debian 6:
+wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifact/debian6'
+# Debian 7:
+wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifact/debian7'
+# Ubuntu 12.04 LTS or newer:
+wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifact/ubuntu12'
+```
