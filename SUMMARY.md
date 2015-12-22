@@ -41,4 +41,5 @@
        * [as 运行信息工具(asinfo)](tools/tools/as_yun_xing_xin_xi_gong_517728_asinfo.md)
        * [as管理工具(asadm)](tools/tools/asguan_li_gong_517728_asadm.md)
        * [ascl命令](tools/tools/asclming_ling.md)
+       * as查询语言(AQL)
 
