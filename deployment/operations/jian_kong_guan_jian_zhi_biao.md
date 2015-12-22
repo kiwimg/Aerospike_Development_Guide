@@ -15,3 +15,14 @@
 
 ##指标表 Metric Table
 更多指标查看参考手册章节中的度量指标
+
+| 名称 | 用法 |
+| -- | -- |
+| available_pct<br>Category: storage<br>Location: namespace  | 1:2 |
+| 0:3 | 1:3 |
+| 0:4 | 1:4 |
+| 0:5 | 1:5 |
+| 0:6 | 1:6 |
+| 0:7 | 1:7 |
+
+
