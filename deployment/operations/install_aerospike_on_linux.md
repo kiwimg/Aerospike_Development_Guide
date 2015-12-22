@@ -49,3 +49,39 @@ Or if your distribution does not include a copy of wget, you can use curl:
 >```aerospike-server-community-<version>-el6/```
 
 这里的<version>是安装包的版本号.
+
+目录的内容应包括：
+
+* license.txt — licenses for Aerospike and other software included in the package.
+* aerospike-tools-<version>.el6.x86_64.rpm — Aerospike command-line tools and utilities.
+* aerospike-server-community-<version>.el6.x86_64.rpm — the Aerospike server package.
+
+>3.Install Aerospike Server & Tools
+
+安装server 和工具包执行以下命令:
+
+>```cd aerospike-server-community-<version>-el6```
+
+>```sudo ./asinstall```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
