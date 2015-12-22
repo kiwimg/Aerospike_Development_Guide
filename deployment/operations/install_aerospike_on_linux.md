@@ -26,7 +26,7 @@ sudo tail -f /var/log/aerospike/aerospike.log | grep cake
 
 如果您已经下载到服务器,您可以跳过此步骤。
 
->1. Download Aerospike Server Community Edition
+>1. 下载aerospike  Community Edition
 
 >```wget -O aerospike.tgz 'http://aerospike.com/download/server/latest/artifact/el6'```
 
@@ -38,3 +38,8 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 
 >```这个el6包进行验证过的包括Red Hat-based distributions、CentOS,Fedora,Oracle Linux,Amazon Linux和Red Hat Enterprise Linux 7。```
+
+## Install Aerospike
+如果已经在服务器安装过，可以跳过此步骤，启动aerospike
+
+>2. 解压安装包
