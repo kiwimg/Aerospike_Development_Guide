@@ -23,7 +23,7 @@
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
        * [命令信息参考](deployment/reference/ming_ling_xin_xi_can_kao.md)
-       * [度量基准](deployment/reference/du_liang_ji_zhun.md)
+       * [度量指标](deployment/reference/du_liang_ji_zhun.md)
        * [Log Reference](deployment/reference/日志参考[log_reference.md])
        * [通信协议Wire Protocol](deployment/reference/tong_xin_xie_yi_wire_protocol.md)
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
