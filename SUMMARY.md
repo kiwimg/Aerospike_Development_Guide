@@ -35,7 +35,7 @@
            * [命令](tools/tools/ming_ling.md)
            * [常规检查](tools/tools/chang_gui_jian_cha.md)
            * [高级监控用法](tools/tools/gao_ji_jian_kong_yong_fa.md)
-           * collectinfo命令集
+           * [collectinfo命令集](tools/tools/collectinfoming_ling_ji.md)
        * [命令行实用工具（CLI）](tools/tools/ming_ling_xing_shi_yong_gong_ju_ff08_cli.md)
        * [日志延迟工具（asloglatency）](tools/tools/ri_zhi_yan_chi_gong_ju_ff08_asloglatency.md)
        * [as 运行信息工具(asinfo)](tools/tools/as_yun_xing_xin_xi_gong_517728_asinfo.md)
