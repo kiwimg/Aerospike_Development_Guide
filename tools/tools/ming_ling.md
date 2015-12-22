@@ -47,3 +47,7 @@
 ### add
 
 >```Monitor> add -h <host>[:<port>][, <host>[:<port>] [, ...]] [-p <port>]```
+
+### remove
+
+>```Monitor> remove -h <host>[:<port>][,...] [-p <port>]```
