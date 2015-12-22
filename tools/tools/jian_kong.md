@@ -9,4 +9,4 @@ asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的
 
 
 
-使用你可以从任何一台有访问网络运行asmonitor。运行asmonitor使用命令
+你可以从任何一台有访问网络运行asmonitor。运行asmonitor使用命令
