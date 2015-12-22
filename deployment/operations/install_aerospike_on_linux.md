@@ -25,3 +25,11 @@ sudo tail -f /var/log/aerospike/aerospike.log | grep cake
 ## Download Aerospike
 
 如果您已经下载到服务器,您可以跳过此步骤。
+
+>1. Download Aerospike Server Community Edition
+
+>```wget -O aerospike.tgz 'http://aerospike.com/download/server/latest/artifact/el6'```
+
+Or if your distribution does not include a copy of wget, you can use curl:
+
+>```curl -L 'http://www.aerospike.com/download/server/latest/artifact/el6' > aerospike.tgz```
