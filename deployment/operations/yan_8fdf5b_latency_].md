@@ -18,7 +18,7 @@
 | 1 | 20 to 21 ms ( ≥ 1 ms to < 2 ms ) |
 | 2 | 21 to 22 ms ( ≥ 2 ms to < 4 ms ) |
 | 3 | 22 to 23 ms ( ≥ 4 ms to < 8 ms )|
-
+|etc| … |
 
 
 日志文件中，每一组直方图数据看起来像这样
@@ -37,7 +37,10 @@ Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:64) (04: 0000091264) (05: 0000024
 Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:72) (08: 0000000035) (09: 0000000029) (10: 0000000021)
 ```
 
-在上面的例子中, there were 90,443,310 read requests to this node since the last time Aerospike service started. In this case, there are ten intervals with the last interval showing reads that completed in 29 to 210 ms (512 ms to 1024 ms). The second line shows that 89,886,682 transactions were processed in the 0 interval (under 1 ms) since uptime. So 99.4% of transactions were processed in under 1 ms cumulatively. Then 180,363 requests completed in 1-2 ms, 107,252 requests completed in 2-4 ms, etc. In the 10th and final interval, just 21 transactions (out of 90 million) took 512-1024 ms to complete.
+在上面的例子中, 该节点从上一次aerospike启动有总共90,443,310读的请求，这种情况下，有十个间隔与最后一个间隔显示读取，完成了在2<sup>9</sup> to 2<sup>10</sup> ms 毫秒（512毫秒到1024毫秒）。
+
+
+there are ten intervals with the last interval showing reads that completed in 29 to 210 ms (512 ms to 1024 ms). The second line shows that 89,886,682 transactions were processed in the 0 interval (under 1 ms) since uptime. So 99.4% of transactions were processed in under 1 ms cumulatively. Then 180,363 requests completed in 1-2 ms, 107,252 requests completed in 2-4 ms, etc. In the 10th and final interval, just 21 transactions (out of 90 million) took 512-1024 ms to complete.
 
 ### Histogram Data说明解释
 
