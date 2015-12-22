@@ -7,6 +7,7 @@ aerospike.conf发现。配置文件分为五个情境两是可选的。一个con
 
 下面是一个例子,一个空配置文件包括所有上下文和sub-contexts
 
+```ruby
 service {}               # Tuning parameters and process owner
 
 network {                # Used to configure intracluster and application-node
@@ -28,3 +29,4 @@ namespace <name> {       # Define namespace record policies and storage engine
     storage {}           # Configure persistence or lack of persistence
     set {}               # (Optional) Set specific record policies
 }
+```
