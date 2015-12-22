@@ -32,3 +32,10 @@
 ### checkmem
 
 >```Monitor> checkmem```
+
+### latency
+
+> ```Monitor> latency [-h <host>[:<port>][, ...]] [-p <port>]
+                 [-v <filter>] [-k (reads | writes_master | writes | writes_reply | proxy)]
+                 [-d <seconds>] [-b <seconds>] [-s <seconds>]
+                 [-t] [-m] [-c]``````
