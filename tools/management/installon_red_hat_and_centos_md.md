@@ -60,7 +60,7 @@ aerospike 提供AMC RPM文件容易安装在Redhat，CentOS
 
 |版本| 描述 |
 | -- | -- |
-| Community| 这是自由可用的版本，具有所有的基本功能。 |
+| [Community](http://www.aerospike.com/download/amc/3.6.4/)| 这是自由可用的版本，具有所有的基本功能。 |
 | Enterprise| 企业版包含了更先进的管理功能，包括对集群配置进行动态修改的能力。客户与企业版订阅可下载此。|
 
 
