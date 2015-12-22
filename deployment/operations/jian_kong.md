@@ -8,11 +8,11 @@ aerospike有几种不同的方法来监控数据库包括独立的工具和集�
 
 | Tool | Documentation | Alerting 报警 |Trending|
 | -- | -- | -- | -- |
-| Aerospike Monitoring Console | Aerospike Monitoring Console | Yes | No |
-| ASMonitor | ASMonitor | No | No |
+| Aerospike Monitoring Console |[ Aerospike Monitoring Console](http://www.aerospike.com/docs/amc) | Yes | No |
+| ASMonitor | [ASMonitor](http://www.aerospike.com/docs/tools/asmonitor/) | No | No |
 | AQL | AQL | No | No |
-| Aerospike Logs | Aerospike Logs | Aerospike Logs | yes |
-| Graphite| Guide | No* | yes |
-| Nagios | Guide | yes | No* |
+| Aerospike Logs | [Aerospike Logs](http://www.aerospike.com/docs/operations/monitor/latency/) | Aerospike Logs | yes |
+| Graphite| [Guide ](http://www.aerospike.com/docs/operations/monitor/graphite/)| No* | yes |
+| Nagios | [Guide](http://www.aerospike.com/docs/operations/monitor/nagios/) | yes | No* |
 
 * Solution has 3rd party plugin for Alerting or Trending
