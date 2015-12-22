@@ -32,4 +32,12 @@
 
 >```64 + (9 + 10) + 28 + (2 + 8) = 121 -> rounded up = 128 bytes (1 block)```
 
+Or for a record in the same set with two bins containing an integer and a string of 20 characters:
+
+>```64 + (9 + 10) + (2 × 28) + (2 + 8) + (5 + 20) = 174 -> rounded up = 256 bytes (2 blocks)```
+
+集群总共需求
+
+>```(size per record as calculated above) x (Number of records) x (replication factor)```
+
 ### 内存需求
