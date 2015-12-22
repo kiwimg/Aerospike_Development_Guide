@@ -53,9 +53,13 @@ Or for a record in the same set with two bins containing an integer and a string
 计算方法
 >```64 bytes × (replication factor) × (number of records)```
 
+#### Secondary Indexes
+基数小于32（即小于32记录索引/二级索引键）
 
+![](QQ截图20151222172255.jpg)
 
-
+基数大于32
+![](QQ截图20151222172330.jpg)
 
 
 
