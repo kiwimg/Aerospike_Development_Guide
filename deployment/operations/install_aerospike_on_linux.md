@@ -72,6 +72,9 @@ Or if your distribution does not include a copy of wget, you can use curl:
 在安装期间如果有错误,请参考故障[排除指南](http://www.aerospike.com/docs/operations/troubleshoot/install/)。
 
 
+##Run
+
+
 
 
 
