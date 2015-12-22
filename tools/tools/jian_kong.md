@@ -16,7 +16,7 @@ asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的
 
 -h 表示一个 hostnames or IP 地址 
 
-参数是服务器的主机名。该参数是可选的，并且将默认为未指定的端口指定的端口。如果没有指定的端口号，则该选项指定主机被询问的默认端口。该-磷是可选的，如果没有指定，那么它将默认为3000。
+-h参数是服务器的主机名。该参数是可选的，并且将默认为未指定的端口指定的端口。如果没有指定的端口号，则该选项指定主机被询问的默认端口。该-p是可选的，如果没有指定，那么它将默认为3000。
 
 
-The parameter is the hostname of the server. The parameter is optional, and will default to the port specified by the -p option if not specified. The -p option specifies the default port for the hosts being inquired, if no port is specified in the -h option. The -p is optional, and if not specified then it will default to 3000.
+的参数是服务器的主机名。—p选项如果不指定，采用默认为指定的港口。那么它将默认为3000。
