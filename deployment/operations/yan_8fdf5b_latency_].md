@@ -37,10 +37,11 @@ Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:64) (04: 0000091264) (05: 0000024
 Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:72) (08: 0000000035) (09: 0000000029) (10: 0000000021)
 ```
 
-在上面的例子中, 该节点从上一次aerospike启动有总共90,443,310读的请求，这种情况下，有十个间隔与最后一个间隔显示读取，完成了在2<sup>9</sup> to 2<sup>10</sup> ms 毫秒（512毫秒到1024毫秒）。
+在上面的例子中, 该节点从上一次aerospike启动有总共90,443,310读的请求，这种情况下，第9个与最后一个间隔显示读取，完成了在2<sup>9</sup> to 2<sup>10</sup> ms 毫秒（512毫秒到1024毫秒）。第二行显示89886682的交易都在0区间处理（在1毫秒）以来的正常运行时间。所以99.4%的交易处理在1 ms的累积。180363要求在1-2毫秒完成，107252要求在2-4毫秒完成，等等，最后的第十区间，只有21的交易（9000万）完成了512-1024 MS。
+
+第二行显示,89886682个事务处理在0间隔(在1 ms)从正常运行时间。99.4%的交易处理累计在1毫秒。180363请求完成1 - 2女士,女士在2 - 4完成107252个请求,等等。在第十和最后的时间间隔,就21交易(9000万)512 - 1024 ms。
 
 
-there are ten intervals with the last interval showing reads that completed in 29 to 210 ms (512 ms to 1024 ms). The second line shows that 89,886,682 transactions were processed in the 0 interval (under 1 ms) since uptime. So 99.4% of transactions were processed in under 1 ms cumulatively. Then 180,363 requests completed in 1-2 ms, 107,252 requests completed in 2-4 ms, etc. In the 10th and final interval, just 21 transactions (out of 90 million) took 512-1024 ms to complete.
 
 ### Histogram Data说明解释
 
