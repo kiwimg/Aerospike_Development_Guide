@@ -12,3 +12,6 @@ asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的
 你可以从任何一台有访问网络运行asmonitor。运行asmonitor使用命令
 
 >```asmonitor [-h <host>[:<port>]] [-p <port>]  [-c <config>]```
+
+
+The -h option specifies a hostnames or IP addresses to inquire stats from. The values for the -h option are:
