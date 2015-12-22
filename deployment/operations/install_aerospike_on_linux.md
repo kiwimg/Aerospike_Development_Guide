@@ -58,6 +58,8 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >3.Install Aerospike Server & Tools
 
+>```默认情况下，许多发布的SELinux的启用，会第一时间安装。在安装过程中禁用。```
+
 安装server 和工具包执行以下命令:
 
 >```cd aerospike-server-community-<version>-el6```
