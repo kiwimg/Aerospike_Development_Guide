@@ -1,2 +1,2 @@
-# 配置
+# 配置Configure Aerospike Database
 
