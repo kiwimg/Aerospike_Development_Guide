@@ -6,5 +6,8 @@
 * Memory: Memory metrics are KPIs that may be used to indicate abnormal memory utilization.
 * Network: Network metrics are KPIs that may indicate problems on the network layer.
 * Storage: Storage metrics are KPIs that may be used to indicate abnormal disk utilization.
-* Service: Service/Other metrics are KPIs are a mix between metrics that indicate abnormal Database operation (such as migrations outside of a maintenance event) or system problems that may cause abnormal Database operations (such as time skew).
-* Trend: Trend metrics are useful stats to allow operations deeper understanding of system behaviors leading up to a particular event.
+* Service: Service/Other metrics are KPIs are a mix between metrics that indicate abnormal Database operation (such as migrations outside of a maintenance event) or system problems that may cause abnormal Database operations (such as time skew).服务/其他指标kpi指标表明之间的混合数据库操作异常(如迁移以外的维修事件)或系统问题,可能会导致异常的数据库操作(如时间偏移)。
+* Trend: Trend metrics are useful stats to allow operations deeper understanding of system behaviors leading up to a particular event.趋势指标是有用的数据,允许业务深入了解系统行为导致一个特定的事件。
+
+
+除了监控统计以下操作也应该监控Linux重要点，如空闲磁盘空间、空闲RAM,交换等
