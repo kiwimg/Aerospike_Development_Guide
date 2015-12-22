@@ -47,3 +47,5 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 解压后的目录名称类似这样子:
 >```aerospike-server-community-<version>-el6/```
+
+这里的<version>是安装包的版本号.
