@@ -6,3 +6,7 @@ asmonitor安装在‘/opt/aerospike/bin/asmonitor’，asmonitor可以得到服�
 
 
 asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的- v的字符串在asinfo命令)。
+
+
+
+使用你可以从任何一台有访问网络运行asmonitor。运行asmonitor使用命令
