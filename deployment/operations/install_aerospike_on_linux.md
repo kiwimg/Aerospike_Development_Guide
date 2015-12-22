@@ -44,3 +44,5 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >2. 解压安装包
 >```tar -xvf aerospike.tgz```
+
+解压后的目录名称类似这样子:
