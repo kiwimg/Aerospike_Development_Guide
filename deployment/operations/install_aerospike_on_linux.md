@@ -21,3 +21,6 @@ sudo tail -f /var/log/aerospike/aerospike.log | grep cake
 
 
 >```注意，安装的软件包需要root权限（sudo）。如果没有root访问，安装发布的[二进制包aerospike.tgz](http://www.aerospike.com/docs/operations/install/linux/other/)```
+
+## Download Aerospike
+如果您已经下载到服务器,您可以跳过此步骤。
