@@ -66,8 +66,7 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >```sudo ./asinstall```
 
-
-
+一旦安装完毕，服务器应该可以使用默认配置文件。看[目录结构](http://www.aerospike.com/docs/operations/manage/aerospike/directory_structure.html)的更多细节。
 
 
 
