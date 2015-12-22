@@ -5,7 +5,7 @@ Aerospike的性能已经很好，很少情况下需要调整配置参数来进�
 Aerospike提供了丰富的可让您的解决方案进行优化您的具体使用情况。
 
 
-* Migrations
+* 迁移[Migrations](http://www.aerospike.com/docs/operations/tune/migration/)
 
 如何调整迁移，以减轻相关的网络开销或如何调整迁移，以减少时间收敛
 
