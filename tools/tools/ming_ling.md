@@ -39,3 +39,11 @@
                  [-v <filter>] [-k (reads | writes_master | writes | writes_reply | proxy)]
                  [-d <seconds>] [-b <seconds>] [-s <seconds>]
                  [-t] [-m] [-c]```
+
+### watch
+
+>```Monitor> watch -n <seconds> <command>```
+
+### add
+
+>```Monitor> add -h <host>[:<port>][, <host>[:<port>] [, ...]] [-p <port>]```
