@@ -14,6 +14,7 @@
        * [概要](deployment/operations/gai_yao.md)
        * [规划](deployment/operations/ji_hua.md)
            * Linux 容量规划
+           * 服务器硬件要求
        * [安装](deployment/operations/an_zhuang.md)
            * [Install Aerospike on Linux](deployment/operations/install_aerospike_on_linux.md)
            * [使用Binary Package安装](deployment/operations/shi_yong_binary_package_an_zhuang.md)
