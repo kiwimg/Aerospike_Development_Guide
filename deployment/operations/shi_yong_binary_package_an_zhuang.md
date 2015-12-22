@@ -83,3 +83,12 @@ dpkg -i aerospike-tools-*.ubuntu12.04.x86_64.deb
 ```
 
 此安装将增加有用的工具在 /opt/aerospike/bin 和 连接[link] them from /usr/bin.
+
+## Run Aerospike
+
+
+Aerospike includes an init script for running the server, located in /etc/init.d/aerospike. This script will manage the Aerospike Server Daemon (asd) located in /usr/bin.
+
+An in-memory test namespace is configured by default. Please see the configuration section to add storage devices, configure a cluster, and tune your configuration to your hardware.
+
+If you change the user for the Aerospike process, then you will need to ensure the user has read and write permissions for /var/log/aerospike and /opt/aerospike.
