@@ -26,3 +26,14 @@
 >```[timestamp/tracking] histogram dump: type (number of cumulative transactions for this node)```
 
 >```[timestamp/tracking] (interval: number of transactions) (interval: number of cumulative transactions) etc.```
+
+
+默认, 每隔10秒生成there are four sets of histogram data generated every ten seconds, one for each type of histogram dump (reads, writes_master, proxy and writes_reply) as described above. These numbers are cumulative since the last Aerospike service start. A typical set of histogram data for reads (all read requests) might look like this:
+
+```java 
+Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:49) histogram dump: reads (90443310 total)
+Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:64) (00: 0089886682) (01: 0000180363) (02: 0000107252) (03: 0000150313)
+Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:64) (04: 0000091264) (05: 0000024060) (06: 0000003137) (07: 0000000154)
+Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:72) (08: 0000000035) (09: 0000000029) (10: 0000000021)
+```
+
