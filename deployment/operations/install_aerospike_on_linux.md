@@ -13,3 +13,12 @@ sudo service aerospike start && \
 sudo tail -f /var/log/aerospike/aerospike.log | grep cake
 # wait for it. "service ready: soon there will be cake!"
 ```
+
+## Overview
+
+使用本教程在红帽企业Linux，CentOS、Fedora，Amazon，Oracle Linux安装Aerospike，和其他Linux发行版使用的RPM包。
+以上是一个简明的版本，下面按照一步一步的说明。
+
+>```Note that root access (sudo) is required to install packages. If you do not have root access, install the binary distribution.```
+
+>```注意，安装的软件包需要root权限（sudo）。如果没有root访问，安装发布的[二进制包](http://www.aerospike.com/docs/operations/install/linux/other/)```
