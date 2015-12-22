@@ -34,4 +34,7 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >```curl -L 'http://www.aerospike.com/download/server/latest/artifact/el6' > aerospike.tgz```
 
-有关发布的详细访问该[下载页](http://www.aerospike.com/download/server/3.7.0.2/)。
+有关发布的详细访问该[下载页](http://www.aerospike.com/download)。
+
+
+>```这个el6包进行验证过的包括Red Hat-based distributions、CentOS,Fedora,Oracle Linux,Amazon Linux和Red Hat Enterprise Linux 7。```
