@@ -45,3 +45,19 @@ Or for a record in the same set with two bins containing an integer and a string
 
 
 ### 内存需求
+
+索引总是存储在内存中。必须有足够的RAM的主索引和二级索引。你应该提供内存不超过50%的RAM配置使用,我。e,内部推荐的最高配置。从理论上讲,你可以分配100%的可用的或为aerospike的RAM的机器上安装使用。然而,您应该允许足够的内存来运行操作系统和其他软件。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
