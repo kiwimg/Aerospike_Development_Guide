@@ -25,3 +25,11 @@ https://www.gitbook.com/book/kiwimg/aerospike_development_guide/details
 
 ##**感谢贡献者**
 
+
+
+
+
+
+## 翻译校正
+
+>``` 如有翻译不正确或错误，请email联系12331023@qq.com```
