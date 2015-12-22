@@ -31,3 +31,13 @@ sudo tail -f ./var/log/aerospike/aerospike.log | grep cake
 
 ## Install Aerospike
 如果已经在服务器安装过，可以跳过此步骤，启动aerospike
+
+
+>2. 解压安装包
+>```tar -xvf aerospike.tgz && cd aerospike-server```
+
+>3. Initialize Aerospike Server
+
+接下来,我们将需要在主机上初始化一个目录作为 aerospike instance:
+>```./bin/aerospike init --help # to see the initialization options```
+>```./bin/aerospike init```
