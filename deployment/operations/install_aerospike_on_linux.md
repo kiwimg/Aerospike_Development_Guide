@@ -73,6 +73,13 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 
 ## Run
+Aerospike 包括一个初始化运行脚本, 位置在/etc/init.d/aerospike. 这个脚本将管理Aerospike Server 守护进程 (asd)位于/usr/bin。
+
+默认有一个内存 test namespace 配置,请参[见配置部分](http://www.aerospike.com/docs/operations/configure/)添加存储设备,配置一个集群,并优化您的硬件配置。
+
+如果你改变Aerospike 用户进程,那么您将需要确保用户读写权限/var/log/aerospike和/opt/aerospike。
+
+If you change the user for the Aerospike process, then you will need to ensure the user has read and write permissions for /var/log/aerospike and /opt/aerospike.
 
 >4. Start Aerospike
 >```sudo service aerospike start```
