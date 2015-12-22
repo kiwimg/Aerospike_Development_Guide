@@ -39,3 +39,10 @@ namespace <name> {       # Define namespace record policies and storage engine
 3. Configure Logging and Log Rotate
 4. (Optional) Configure Rack-Aware
 5. (Optional) Configure Cross Datacenter Replication
+
+
+## 到下一个章节
+
+配置指南Configuration Reference
+调优指南 Tuning Guide 
+故障排除 Troubleshooting Guide
