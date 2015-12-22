@@ -40,4 +40,8 @@ Or for a record in the same set with two bins containing an integer and a string
 
 >```(size per record as calculated above) x (Number of records) x (replication factor)```
 
+数据可以存储在RAM或闪存（SSD）。但是不能超过固态硬盘容量50-60%。你可以使用我们推荐的固态硬盘或测试/验证你自己的SSD使用ACT Aerospike Certification Tool (ACT)（我们建议你用ACT to certify for 3x performance)。
+
+
+
 ### 内存需求
