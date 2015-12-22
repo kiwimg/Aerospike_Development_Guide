@@ -70,7 +70,6 @@ wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifac
 
 解压。tgz文件,然后安装工具软件包:
 
-
 ```ruby
 tar -xvf aerospike-tools.tgz && cd aerospike-server-community-
 # Red Hat Variants:
