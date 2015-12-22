@@ -61,3 +61,12 @@
 ### sorttable
 
 >```Monitor> sorttable```
+
+### restoredefault
+
+> ```Monitor> restoredefaults```
+
+
+### exit
+
+>```Monitor> exit```
