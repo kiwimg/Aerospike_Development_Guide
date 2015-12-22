@@ -13,6 +13,7 @@
    * [操作手册](deployment/operations/cao_zuo_shou_ce.md)
        * [概要](deployment/operations/gai_yao.md)
        * [计划](deployment/operations/ji_hua.md)
+       * 安装
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
        * [命令信息参考](deployment/reference/ming_ling_xin_xi_can_kao.md)
