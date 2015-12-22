@@ -67,3 +67,5 @@ wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifac
 # Ubuntu 12.04 LTS or newer:
 wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifact/ubuntu12'
 ```
+
+解压。tgz文件,然后安装工具软件包:
