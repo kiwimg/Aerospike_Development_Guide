@@ -18,7 +18,7 @@
        * [命令信息参考](deployment/reference/ming_ling_xin_xi_can_kao.md)
        * [度量基准](deployment/reference/du_liang_ji_zhun.md)
        * [Log Reference](deployment/reference/日志参考[log_reference.md])
-       * 通信协议Wire Protocol
+       * [通信协议Wire Protocol](deployment/reference/tong_xin_xie_yi_wire_protocol.md)
 * [工具集[TOOLS]](tools/gong_ju_96c65b_tools_].md)
    * [管理控制台](tools/management/guan_li_kong_zhi_tai.md)
        * [安装](tools/management/anzhuang_md.md)
