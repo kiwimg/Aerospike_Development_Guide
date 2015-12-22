@@ -46,3 +46,4 @@ Or if your distribution does not include a copy of wget, you can use curl:
 >```tar -xvf aerospike.tgz```
 
 解压后的目录名称类似这样子:
+>```aerospike-server-community-<version>-el6/```
