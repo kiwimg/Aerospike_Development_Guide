@@ -43,3 +43,4 @@ Or if your distribution does not include a copy of wget, you can use curl:
 如果已经在服务器安装过，可以跳过此步骤，启动aerospike
 
 >2. 解压安装包
+>```tar -xvf aerospike.tgz```
