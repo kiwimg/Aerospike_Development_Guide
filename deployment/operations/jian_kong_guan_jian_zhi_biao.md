@@ -18,7 +18,7 @@
 
 | 名称 | 用法 |
 | -- | -- |
-| available_pct<br>Category: storage<br>Location: namespace  | 1:2 |
+| available_pct<br>Category: storage<br>Location: namespace  | ```IF available_pct drops below 20% THEN may indicate that defrag is unable to keep up with the current load, warn operations ```<br>```IF available_pct drops below 15% THEN critical alert to operations, usable disk resources are critically low may result in a stop-writes if situation if available_pct drops drops below 5%.``` |
 | 0:3 | 1:3 |
 | 0:4 | 1:4 |
 | 0:5 | 1:5 |
