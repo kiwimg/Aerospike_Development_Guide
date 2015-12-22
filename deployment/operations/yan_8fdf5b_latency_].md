@@ -37,6 +37,8 @@ Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:64) (04: 0000091264) (05: 0000024
 Aug 24 2012 18:02:35 GMT: INFO (info): (hist.c:72) (08: 0000000035) (09: 0000000029) (10: 0000000021)
 ```
 
+在上面的例子中, there were 90,443,310 read requests to this node since the last time Aerospike service started. In this case, there are ten intervals with the last interval showing reads that completed in 29 to 210 ms (512 ms to 1024 ms). The second line shows that 89,886,682 transactions were processed in the 0 interval (under 1 ms) since uptime. So 99.4% of transactions were processed in under 1 ms cumulatively. Then 180,363 requests completed in 1-2 ms, 107,252 requests completed in 2-4 ms, etc. In the 10th and final interval, just 21 transactions (out of 90 million) took 512-1024 ms to complete.
+
 ### Histogram Data说明解释
 
 ```java 
