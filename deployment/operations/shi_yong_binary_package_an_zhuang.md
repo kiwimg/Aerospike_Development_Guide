@@ -69,3 +69,16 @@ wget -O aerospike-tools.tgz 'http://aerospike.com/download/server/latest/artifac
 ```
 
 解压。tgz文件,然后安装工具软件包:
+
+
+```ruby
+tar -xvf aerospike-tools.tgz && cd aerospike-server-community-
+# Red Hat Variants:
+rpm -Uvh aerospike-tools-.el6.x86_64.rpm
+# Debian 6:
+dpkg -i aerospike-tools-.debian6.x86_64.deb
+# Debian 7:
+dpkg -i aerospike-tools-.debian7.x86_64.deb
+# Ubuntu 12.04 LTS or newer:
+dpkg -i aerospike-tools-*.ubuntu12.04.x86_64.deb
+```
