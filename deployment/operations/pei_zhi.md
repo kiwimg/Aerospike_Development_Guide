@@ -30,3 +30,12 @@ namespace <name> {       # Define namespace record policies and storage engine
     set {}               # (Optional) Set specific record policies
 }
 ```
+
+
+##配置步骤
+
+1. Configure Network service and heartbeat sub-contexts
+2. Configure Namespaces
+3. Configure Logging and Log Rotate
+4. (Optional) Configure Rack-Aware
+5. (Optional) Configure Cross Datacenter Replication
