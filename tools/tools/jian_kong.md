@@ -14,4 +14,4 @@ asmonitor工具是一个控制台,您可以输入各种命令(包括大部分的
 >```asmonitor [-h <host>[:<port>]] [-p <port>]  [-c <config>]```
 
 
-The -h option specifies a hostnames or IP addresses to inquire stats from. The values for the -h option are:
+-h 表示一个 hostnames or IP 地址 
