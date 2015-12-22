@@ -20,3 +20,9 @@
 | 3 | 22 to 23 ms ( ≥ 4 ms to < 8 ms )|
 
 
+
+日志文件中，每一组直方图数据看起来像这样
+
+>```[timestamp/tracking] histogram dump: type (number of cumulative transactions for this node)```
+
+>```[timestamp/tracking] (interval: number of transactions) (interval: number of cumulative transactions) etc.```
