@@ -90,8 +90,8 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >6. 接下来 Next Steps
 
+验证服务器是否正确安装:
 
-
-
+然后,选择一个客户,开始开发!
 
 
