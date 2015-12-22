@@ -91,3 +91,23 @@ Aerospike includes an init script for running the server, located in ./bin/aeros
 
 
 >The aerospike instance will store log files in ./var/log and system data in ./share. If you change the user for the Aerospike process, then you will need to ensure the user has permissions for ./var/log and ./share.
+
+>5. Start Aerospike
+>```sudo service aerospike start```
+
+>6.检查运行状态 Verify Aerospike is Running
+
+>```sudo service aerospike status```
+
+你也可以查看服务器日志 位置在/var/log/aerospike/aerospike.log,你可以看到
+>```Jun 22 2014 03:35:33 GMT: INFO (as): (as.c::376) service ready: soon there will be cake!```
+
+在安装期间如果有错误,请参考故障[排除指南](http://www.aerospike.com/docs/operations/troubleshoot/install/)。
+
+
+
+>7. 接下来 Next Steps
+
+验证服务器是否正确安装:
+
+然后,选择一个客户,开始开发!
