@@ -74,19 +74,21 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 ## Run
 
-#### Start Aerospike
+>4. Start Aerospike
 >```sudo service aerospike start```
 
-#### 检查运行状态 Verify Aerospike is Running
+>5.检查运行状态 Verify Aerospike is Running
 
 >```sudo service aerospike status```
 
 你也可以查看服务器日志 位置在/var/log/aerospike/aerospike.log,你可以看到
 >```Jun 22 2014 03:35:33 GMT: INFO (as): (as.c::376) service ready: soon there will be cake!```
 
+在安装期间如果有错误,请参考故障[排除指南](http://www.aerospike.com/docs/operations/troubleshoot/install/)。
 
 
 
+>6. 接下来 Next Steps
 
 
 
