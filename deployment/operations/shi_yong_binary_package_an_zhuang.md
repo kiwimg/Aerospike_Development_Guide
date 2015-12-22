@@ -14,3 +14,5 @@ sudo tail -f ./var/log/aerospike/aerospike.log | grep cake
 ## Overview
 
 本教程安装的aerospike使用Linux的glibc 2.11或以上版本。glibc 2.11发布2009年1月,和大多数的Linux发行版——Debian 6 +,Centos 6 + 12 + OpenSUSE,Ubuntu 10.04 +支持这个版本
+
+这个包包含一个aerospike二进制安装包可以运行在一个没有安装其他软件的用户目录,并且不需要root权限
