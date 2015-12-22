@@ -15,7 +15,7 @@
        * [规划](deployment/operations/ji_hua.md)
            * Linux 容量规划
            * 服务器硬件要求
-           * flash存储要求
+           * [flash存储要求](deployment/operations/flashcun_chu_yao_qiu.md)
            * [网络要求](deployment/operations/wang_luo_yao_qiu.md)
        * [安装](deployment/operations/an_zhuang.md)
            * [Install Aerospike on Linux](deployment/operations/install_aerospike_on_linux.md)
