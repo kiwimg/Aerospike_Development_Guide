@@ -81,7 +81,8 @@ Or if your distribution does not include a copy of wget, you can use curl:
 
 >```sudo service aerospike status```
 
-你也可以查看服务器日志 位置在/var/log/aerospike/aerospike.log
+你也可以查看服务器日志 位置在/var/log/aerospike/aerospike.log,你可以看到
+>```Jun 22 2014 03:35:33 GMT: INFO (as): (as.c::376) service ready: soon there will be cake!```
 
 
 
