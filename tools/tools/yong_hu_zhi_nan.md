@@ -20,3 +20,18 @@ All commands will sort output based on the node name that asadm chooses for the 
 
 
 所有的命令都支持tab自动补全功能；在Admin>提示符,输入i 按<tab>键将出现完整的info命令，输入cl 按<tab>将会出现建议的列表。您还可以是短命令执行，例如，运行info，你可以输入i和net等同于 info network，将会输出namespace和网络信息
+
+```
+Admin> i net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Network Information~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          Node               Node                  Fqdn                    Ip   Client     Current     HB        HB   
+             .                 Id                     .                     .    Conns        Time   Self   Foreign   
+172.16.245.231   *BB9E2CC3C565000   172.16.245.231:3000   172.16.245.231:3000        2   153238334      0     19919   
+172.16.245.232   BB99D5237565000    172.16.245.232:3000   172.16.245.232:3000        2   153238336      0     26505   
+172.16.245.233   BB9A63527565000    172.16.245.233:3000   172.16.245.233:3000        2   153238337      0     19909   
+172.16.245.234   BB9490B30565000    172.16.245.234:3000   172.16.245.234:3000        2   153238339      0     26493   
+Number of rows: 4
+
+Admin> i n
+ERR: Ambiguous command: 'n' may be namespace or network.
+```
