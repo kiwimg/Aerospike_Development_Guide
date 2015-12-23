@@ -41,3 +41,6 @@ u9.aerospike.local          12
 No. of rows: 3
 Monitor>
 ```
+
+
+##Displaying Tables
