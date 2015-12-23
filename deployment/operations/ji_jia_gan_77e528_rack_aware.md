@@ -19,3 +19,5 @@ service {
 }
 
 ```
+
+### Configuring the Group (Rack)
