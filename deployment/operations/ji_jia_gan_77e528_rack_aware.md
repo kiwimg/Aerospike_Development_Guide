@@ -31,3 +31,13 @@ service {
 
 
 * 组ID必须显式地指定。
+
+#### Explicit（明确指定） Node ID
+
+```java
+cluster {
+    mode static
+    self-node-id [32-bit unsigned integer node ID]
+    self-group-id [16-bit unsigned integer group ID]
+}
+```
