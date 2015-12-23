@@ -125,4 +125,16 @@ Number of rows: 3
 ```
 ####Statistics
 
+```
+Admin> show statistics service like batch
+~~~~~~~~~~~~~~~~~~~~~Service Statistics~~~~~~~~~~~~~~~~~~~~
+NODE                           :   u10      u12      u13
+batch_errors                   :   0        0        0
+batch_initiate                 :   842926   826436   731764
+batch_queue                    :   0        0        0
+batch_timeout                  :   0        0        0
+batch_tree_count               :   0        0        0
+stat_slow_trans_queue_batch_pop:   4148     3506     0
+```
+
 ## Cluster
