@@ -22,7 +22,7 @@
            * [使用Binary Package安装](deployment/operations/shi_yong_binary_package_an_zhuang.md)
        * [配置](deployment/operations/pei_zhi.md)
            * [网络](deployment/operations/wang_luo.md)
-               * 常规配置
+               * [常规配置](deployment/operations/chang_gui_pei_zhi.md)
        * [调优](deployment/operations/diao_you.md)
            * [监控关键指标](deployment/operations/jian_kong_guan_jian_zhi_biao.md)
            * [延迟[Latency]](deployment/operations/yan_8fdf5b_latency_].md)
