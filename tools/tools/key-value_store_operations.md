@@ -42,3 +42,7 @@ To get a record from the database, use the get comamand:
 ### Example:
 
 >```$ ascli exists test test test```
+
+## remove
+
+>```ascli remove <ns> <set> <key>```
