@@ -17,3 +17,6 @@ asadm默认在发布的安装包里，或者从github仓库获取安装
 All commands will sort output based on the node name that asadm chooses for the node. The node name is the shortest unique prefix of Fully Qualified Domain Name (FQDN) or IP if the FQDN cannot be resolved.
 
 ## Command Shortcuts[命令快捷键]
+
+
+所有的命令都支持tab自动补全功能；在Admin>提示符,输入i 按<tab>键将出现完整的info命令，输入cl 按<tab>将会出现建议的列表。您还可以是短命令执行，例如，运行info，你可以输入i和net等同于 info network，将会输出namespace和网络信息
