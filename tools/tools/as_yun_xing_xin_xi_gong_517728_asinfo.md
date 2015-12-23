@@ -16,3 +16,11 @@ asinfo是一个命令行实用程序,它提供了一个接口的Aerospike集群�
 | -p | 3000 | 	Service port of the target Aerospike server. |
 | -l | disabled | Replaced semicolons ';' in with line breaks in the response. |
 | -v |  | Command to send to the target server. If not provided returns a default set of results. See Commands |
+
+
+Example:
+```
+$ asinfo -v "namespaces"
+requested value  namespaces
+value is user_profile;test;bar
+```
