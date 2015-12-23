@@ -41,18 +41,3 @@ The following are commands for ascli. Each command has its own set of options an
 | udf-record-apply| Apply a UDF to a record.[给记录运行自定义]|
 
 
-
-Command	Description
-exists	Check if a record exists.
-get	Get a record.
-put	Put a record.
-remove	Remove a record.
-query-list	List the query jobs currently running.
-query-kill	Kill a query job.
-scan-list	List the scan jobs currently running.
-scan-kill	Kill a scan job.
-udf-get	Download a UDF module.
-udf-put	Upload a UDF module.
-udf-list	List UDF modules.
-udf-remove	Remove a UDF module.
-udf-record-apply	Apply a UDF to a record.
