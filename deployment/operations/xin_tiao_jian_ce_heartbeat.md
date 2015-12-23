@@ -18,7 +18,7 @@ aerospike的心跳协议负责维护集群的完整性。有两种方式心跳�
 
 * Set address to a valid multicast address (239.0.0.0-239.255.255.255).
 
-*(Optional) Set interface-address to the IP of the interface intended for intracluster communication. This setting also controls the interface fabric will use. Needed when isolating intra-cluster traffic to a particular network interface. 
+*(Optional) Set interface-address to the IP of the interface intended for intracluster communication. This setting also controls the interface fabric will use. Needed when isolating intra-cluster traffic to a particular network interface. InterfaceAddress 表示一个由名称和分配给此接口的 IP 地址列表组成的网络接口。它用于标识加入多播组的本地接口。
   
 
 * Set interval and timeout
