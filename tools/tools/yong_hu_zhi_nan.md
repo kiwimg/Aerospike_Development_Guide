@@ -35,3 +35,25 @@ Number of rows: 4
 Admin> i n
 ERR: Ambiguous command: 'n' may be namespace or network.
 ```
+
+## Help
+
+```
+Admin> help info
+The "info" command provides summary tables for various aspects
+of Aerospike functionality.
+Modifiers: with
+Default: Displays service, network, namespace, and xdr summary
+information.
+  - namespace:
+    Displays summary information for each namespace.
+  - network:
+    Displays network information for Aerospike, the main
+    purpose of this information is to link node ids to
+    fqdn/ip addresses.
+  - service:
+    Displays summary information for the Aerospike service.
+  - xdr:
+    Displays summary information for Cross Datacenter
+    Replication (XDR).
+```
