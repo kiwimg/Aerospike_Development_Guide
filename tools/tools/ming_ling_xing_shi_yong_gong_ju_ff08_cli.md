@@ -24,6 +24,18 @@ Show help message
 ## Commands
 The following are commands for ascli. Each command has its own set of options and arguments. See the command's documentation for details.
 
+| Command | Description |
+| -- | -- |
+| exists | Check if a record exists |
+| 0:3 | 1:3 |
+| 0:4 | 1:4 |
+| 0:5 | 1:5 |
+| 0:6 | 1:6 |
+| 0:7 | 1:7 |
+| 0:8 | 1:8 |
+| 0:9 | 1:9 |
+
+
 Command	Description
 exists	Check if a record exists.
 get	Get a record.
