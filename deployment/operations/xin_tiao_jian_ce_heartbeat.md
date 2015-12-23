@@ -7,6 +7,9 @@ aerospike的心跳协议负责维护集群的完整性。有两种方式心跳�
 
 
 ## 多播 Multicast Heartbeat
+我们建议使用多播心跳协议时可用。由于各种原因,你的网络可能不支持多播。请查看我们的[故障排除指南](http://www.aerospike.com/docs/operations/troubleshoot/)，以查看如何在您的环境中验证多播信息。
+
+
 配置步骤
 
 在 heartbeat 段落里面配置：
