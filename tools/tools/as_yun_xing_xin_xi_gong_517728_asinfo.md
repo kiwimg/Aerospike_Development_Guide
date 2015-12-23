@@ -24,3 +24,16 @@ $ asinfo -v "namespaces"
 requested value  namespaces
 value is user_profile;test;bar
 ```
+
+## Aerospike's Telnet Port
+aerospike还提供Telnet服务通常配置为3003端口。这个服务提供为asinfo相同的功能，
+
+Example:
+```
+$ telnet 127.0.0.1 3003
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+namespaces
+user_profile;test;bar
+```
