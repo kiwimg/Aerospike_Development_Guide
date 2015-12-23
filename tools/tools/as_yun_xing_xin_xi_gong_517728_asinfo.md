@@ -9,3 +9,10 @@ asinfo是一个命令行实用程序,它提供了一个接口的Aerospike集群�
 这个asinfo命名默认会安装在/usr/bin/asinfo，使用语法格式
 
 >```asinfo [-h HOST] [-p PORT] [-v VALUE] [-l]```
+
+| Option | Default | Description|
+| -- | -- | -- |
+| -h | localhost | IP Address or FQDN of the target Aerospike server. |
+| -p | 3000 | 	Service port of the target Aerospike server. |
+| -l | disabled | Replaced semicolons ';' in with line breaks in the response. |
+| -v |  | Command to send to the target server. If not provided returns a default set of results. See Commands |
