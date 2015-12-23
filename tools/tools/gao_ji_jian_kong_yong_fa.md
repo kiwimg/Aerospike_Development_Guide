@@ -8,9 +8,7 @@ asmonitor allows you to create persistent tables for monitoring certain statisti
 一旦你创建了表定义，你可以显示表和表的名称将显示在可用表的列表中。
 Once you create your table definition, you can display the table and the table name will be shown in the list of available tables.
 
-例如,如果您想监视悬而未决的数量限制错误,你asmonitorsession创建表定义和显示表看起来像这样:
-
-例如，如果你想监控一些未决的极限误差，你asmonitorsession创建表定义和显示表看起来像这样：
+例如,如果您想监视悬而未决的数量限制错误,你asmonitorsession创建表定义和显示，类似下面这样:
 
 For example, if you wanted to monitor the number of pending limit errors, your asmonitorsession to create the table definition and display the table would look like this:
 
