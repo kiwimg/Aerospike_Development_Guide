@@ -28,4 +28,22 @@ aerospike的心跳协议负责维护集群的完整性。有两种方式心跳�
 
 * With the default settings, a node will be aware of another node leaving the cluster within 1.5 seconds.
 
+##Example
+
+```java
+...
+  heartbeat {
+    mode multicast                  # Send heartbeats using Multicast
+    address 239.1.99.2              # multicast address
+    port 9918                       # multicast port
+    interface-address 192.168.1.100 # (Optional) (Default any) IP of the NIC to
+                                    # use to send out heartbeat and bind
+                                    # fabric ports
+    interval 150                    # Number of milliseconds between heartbeats
+    timeout 10                      # Number of heartbeat intervals to wait
+                                    # before timing out a node
+  }
+...
+```
+
 ## 单播 Mesh (Unicast) Heartbeat
