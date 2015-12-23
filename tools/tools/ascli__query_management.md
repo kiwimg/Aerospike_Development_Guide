@@ -7,3 +7,9 @@
 >```ascli query-list [-v]```
 
 >```-v: 将打印更详细的清单```
+
+Example:
+
+```$ ascli query-list
+TRANSACTION ID          STATUS
+472341955492950239      RUNNING```
