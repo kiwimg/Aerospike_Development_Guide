@@ -35,6 +35,13 @@ Number of rows: 4
 Admin> i n
 ERR: Ambiguous command: 'n' may be namespace or network.
 ```
+## Modifiers
+There are currently two modifiers that commands may support.
+目前有两个命令可能支持的修饰符。
+
+* like: Like shows the output containing any word listed after 'like'.
+* with: With specifies a list of nodes to be used with the given command.
+  You can use the node's IP, FQDN, or Node ID as well as any unique prefix.
 
 ## Help
 
@@ -74,3 +81,23 @@ heartbeat-timeout :   10                10                10
 mesh-address      :   192.168.120.112   192.168.120.112   192.168.120.112
 mesh-port         :   3002              3002              3002
 ```
+####Configuration
+
+```
+Admin> show config network like heartbeat mesh
+~~~~~~~~~~~~~~~~~~~~~~~~~~Network Configuration~~~~~~~~~~~~~~~~~~~~~~~~~~
+NODE              :   u10               u12               u13
+heartbeat-address :   192.168.120.110   192.168.120.112   192.168.120.113
+heartbeat-interval:   150               150               150
+heartbeat-mode    :   mesh              mesh              mesh
+heartbeat-port    :   3002              3002              3002
+heartbeat-protocol:   v2                v2                v2
+heartbeat-timeout :   10                10                10
+mesh-address      :   192.168.120.112   192.168.120.112   192.168.120.112
+mesh-port         :   3002              3002              3002
+```
+
+
+####Distribution（分布式）
+
+## Cluster
