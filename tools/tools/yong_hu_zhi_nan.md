@@ -124,7 +124,9 @@ u13    23:32:20-GMT->23:32:30    1968.9   1.03    0.0     0.0
 Number of rows: 3
 ```
 ####Statistics
+The show statistics command displays all server statistics from several server components. By default it returns statistics from all contexts but the sub-commands bins, namespace, service, sets, and xdr will confine the output to a single context.
 
+The following example shows batch api statistics. We can see that each node has executed more than 700,000 batch requests.
 ```
 Admin> show statistics service like batch
 ~~~~~~~~~~~~~~~~~~~~~Service Statistics~~~~~~~~~~~~~~~~~~~~
