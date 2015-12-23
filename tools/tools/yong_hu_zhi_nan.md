@@ -112,5 +112,16 @@ u13    328320   331776   335232   338688   338688   342144   342144   345600   3
 Number of rows: 3
 ```
 ###Latency（延迟）
+The show latency command displays latency characteristics of reads, writes, and proxies.
+```
+Admin> show latency like writes_master
+~~~~~~~~~~~~~~~~~~~~writes_master Latency~~~~~~~~~~~~~~~~~~~~
+Node                     Time   Ops/Sec   >1Ms   >8Ms   >64Ms
+   .                     Span         .      .      .       .
+u10    23:32:20-GMT->23:32:30    2044.7   1.09    0.0     0.0
+u12    23:32:20-GMT->23:32:30    2012.6   0.77    0.0     0.0
+u13    23:32:20-GMT->23:32:30    1968.9   1.03    0.0     0.0
+Number of rows: 3
+```
 
 ## Cluster
