@@ -10,11 +10,17 @@
 
 Example:
 
-```$ ascli query-list
+```
+$ ascli query-list
 TRANSACTION ID          STATUS
-472341955492950239      RUNNING```
+472341955492950239      RUNNING
 
+```
 
+如果加上 -v参数
+```
 $ ascli query-list -v
 NODE               TRANSACTION ID          STATUS     PROGRESS      EXEC TIME(ms)
 BB92A20F7290C00    13912474952720922700    RUNNING    [n=191079]    24672587
+```
+
