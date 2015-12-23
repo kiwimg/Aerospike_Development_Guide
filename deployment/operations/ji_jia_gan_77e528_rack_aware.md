@@ -21,3 +21,8 @@ service {
 ```
 
 ### Configuring the Group (Rack)
+
+
+在非机架感知的情况下，每个节点由一个节点的值被确定-一个64位的无符号整数，其中包括：16位端口标识加48位hardware MAC address。在集群中的每个节点的值必须是唯一的。
+
+当使用机架感知时，一个节点的值包括：16-bit port ID + 16-bit group ID + 32-bit node ID:：
