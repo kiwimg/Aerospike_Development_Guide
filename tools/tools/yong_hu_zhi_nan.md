@@ -99,7 +99,9 @@ mesh-port         :   3002              3002              3002
 
 
 ####Distribution（分布式）
+The show distribution displays histograms and supports the eviction, object_size, and time_to_live histograms.
 
+```
 Admin> show distribution time_to_live 
 ~~~~~~~~~~~~~~~~~~~~~~~~~phobos_sindex - TTL Distribution in Seconds~~~~~~~~~~~~~~~~~~~~~~~~~~
        Percentage of records having ttl less than or equal to value measured in Seconds
@@ -108,5 +110,6 @@ u10    328320   331776   335232   338688   338688   342144   342144   345600   3
 u12    328320   331776   335232   338688   338688   342144   342144   345600   345600   345600
 u13    328320   331776   335232   338688   338688   342144   342144   345600   345600   345600
 Number of rows: 3
+```
 
 ## Cluster
