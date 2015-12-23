@@ -24,4 +24,7 @@ NODE               TRANSACTION ID          STATUS     PROGRESS      EXEC TIME(ms
 BB92A20F7290C00    13912474952720922700    RUNNING    [n=191079]    24672587
 ```
 
-query-kill
+## query-kill
+这命令的语法是：
+
+>```ascli query-kill <id>```
