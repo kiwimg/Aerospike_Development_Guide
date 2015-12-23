@@ -56,8 +56,24 @@ network {
 }
 ...```
 
-什么是访问地址？ What is access-address?
+###什么是访问地址？ What is access-address?
 
 访问地址参数确定为客户访问发布的地址。建议当一个aerospike节点有多个IP地址发布的访问地址指向的配置所需的IP。
 
 The access-address parameter determines the address which is published for client access. It is recommended when an Aerospike node has multiple IP addresses to publish an access-address pointing to desired IP in the config.
+
+###访问地址丢失时会发生什么情况？。
+
+如果节点有多个IP地址，客户端会看到每个节点的多个服务器的IP地址。一些客户端（如Java）可以复制基于node-id.其中一些工具复制的IPS（AMC，asmonitor）可能无法复制。工具如asmonitor可能报告这样的场景与集群可见性错误的错误,因为它看到集群之间的大小和数量的服务器的ip。
+
+这并不影响客户端的工作，但只会导致一个问题的工具。
+
+
+If the nodes have multiple IP addresses, the clients will see multiple server IPs for each node. Some of the clients (like java) can de-duplicate the duplicate IPs based on node-id. Where as some tools (AMC, asmonitor) may not be able to de-duplicate. Tools like asmonitor may report such scenarios with cluster visibility false error since it sees a mismatch between cluster size and number of server IPs.
+
+This does not impact the working of clients but only causes a problem with the tools.
+
+
+
+
+
