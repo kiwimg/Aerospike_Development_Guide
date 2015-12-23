@@ -6,7 +6,7 @@ aerospike配置的网络节需要以下小节：
 * info
 * heartbeat
 
-通常情况下，只有服务和心跳分小节需要修改。在服务节确保访问地址配置，应用程序将与网络接口。从服务器版本3.3.26这个访问地址应该是一个物理网络接口地址。在虚拟访问地址使用virtual关键字的情况，例如访问虚拟地址192.168.1.100。
+通常情况下，只有服务和心跳分小节需要修改。在服务节确保访问地址配置，应用程序将与网络接口。从服务器版本3.3.26这个访问地址应该是一个物理网络接口地址。在虚拟访问地址需要使用virtual关键字，例如访问虚拟地址192.168.1.100。
 Typically, only the service and heartbeat sub-stanzas need modification. In the service stanza ensure that access-address is configured to the network interface that the Application will communicate to. From server version 3.3.26 this access-address should be one of the physical network interface address. In case of vitual access-address use virtual keyword in the end, e.g. access-address 192.168.1.100 virtual
 
 ```javascript
