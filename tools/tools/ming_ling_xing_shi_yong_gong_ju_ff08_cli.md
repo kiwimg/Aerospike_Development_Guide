@@ -27,13 +27,19 @@ The following are commands for ascli. Each command has its own set of options an
 | Command | Description |
 | -- | -- |
 | exists | Check if a record exists |
-| 0:3 | 1:3 |
-| 0:4 | 1:4 |
-| 0:5 | 1:5 |
-| 0:6 | 1:6 |
-| 0:7 | 1:7 |
-| 0:8 | 1:8 |
-| 0:9 | 1:9 |
+| get| Get a record.|
+| put| Put a record.|
+| remove | Remove a record. |
+| query-list| List the query jobs currently running[列出当前正在运行的查询工作] |
+| query-kill | Kill a query job|
+| scan-list | List the scan jobs currently running[当前正在运行的扫描的作业列表] |
+| scan-kill| Kill a scan job. |
+| udf-get| Download a UDF module.[下载一个自定义函数模块] |
+| udf-put| Upload a UDF module.[上传一个自定义函数模块]|
+| udf-list| List UDF modules.|
+| udf-remove| Remove a UDF module |
+| udf-record-apply| Apply a UDF to a record.[给记录运行自定义]|
+
 
 
 Command	Description
