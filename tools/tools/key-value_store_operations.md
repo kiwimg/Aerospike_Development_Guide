@@ -34,3 +34,11 @@ To get a record from the database, use the get comamand:
 
 ```$ ascli get test test test
 {"a": "A", "b": 1, "c": [1,2,3], "d": {"x": 4}}```
+
+## exists
+
+>```ascli exists <ns> <set> <key>```
+
+### Example:
+
+>```$ ascli exists test test test```
