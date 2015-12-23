@@ -15,3 +15,5 @@ asadm默认在发布的安装包里，或者从github仓库获取安装
 
 所有的命令会输出基于asadm选择为节点的节点名称。节点名称是最短的独特的前缀完全限定域名(FQDN)或或IP如果域名无法解析。
 All commands will sort output based on the node name that asadm chooses for the node. The node name is the shortest unique prefix of Fully Qualified Domain Name (FQDN) or IP if the FQDN cannot be resolved.
+
+## Command Shortcuts[命令快捷键]
