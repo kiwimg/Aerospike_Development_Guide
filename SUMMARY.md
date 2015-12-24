@@ -63,6 +63,6 @@
        * [as 运行信息工具(asinfo)](tools/tools/as_yun_xing_xin_xi_gong_517728_asinfo.md)
        * [as管理工具(asadm)](tools/tools/asguan_li_gong_517728_asadm.md)
            * [用户指南](tools/tools/yong_hu_zhi_nan.md)
-       * [ascl命令](tools/tools/asclming_ling.md)
+       * [cli命令](tools/tools/asclming_ling.md)
        * [as查询语言(AQL)](tools/tools/ascha_xun_yu_8a0028_aql.md)
 
