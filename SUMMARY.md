@@ -30,6 +30,7 @@
            * [延迟[Latency]](deployment/operations/yan_8fdf5b_latency_].md)
        * [故障排除](deployment/operations/gu_zhang_pai_chu.md)
            * 安装
+           * 启动
        * [监控](deployment/operations/jian_kong.md)
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
