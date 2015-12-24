@@ -81,8 +81,6 @@ aql> explain select * from test.uqr where PK=1
 ]
 ```
 
-
-
 Where:
 
 * “SET” is the set name for the record.
