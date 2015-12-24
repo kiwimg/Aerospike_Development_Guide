@@ -55,7 +55,7 @@
            * [备份 (asbackup)](tools/tools/bei_fen__asbackup.md)
            * [恢复 (asrestore)](tools/tools/hui_fu__asrestore.md)
            * 备份文件格式
-       * [监控](tools/tools/jian_kong.md)
+       * [监控[asmonitor]](tools/tools/jian_kong.md)
            * [命令](tools/tools/ming_ling.md)
            * [常规检查](tools/tools/chang_gui_jian_cha.md)
            * [高级监控用法](tools/tools/gao_ji_jian_kong_yong_fa.md)
