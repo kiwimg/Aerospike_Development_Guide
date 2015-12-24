@@ -54,7 +54,7 @@
            * [常规检查](tools/tools/chang_gui_jian_cha.md)
            * [高级监控用法](tools/tools/gao_ji_jian_kong_yong_fa.md)
            * [collectinfo命令](tools/tools/collectinfoming_ling_ji.md)
-       * [命令行实用工具（CLI）](tools/tools/ming_ling_xing_shi_yong_gong_ju_ff08_cli.md)
+       * [aerosipke（CLI）](tools/tools/ming_ling_xing_shi_yong_gong_ju_ff08_cli.md)
            * [Key-Value Store Operations](tools/tools/key-value_store_operations.md)
            * [ascli – Query Management](tools/tools/ascli__query_management.md)
            * Scan Management
