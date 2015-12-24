@@ -18,16 +18,12 @@ https://www.gitbook.com/book/kiwimg/aerospike_development_guide/details
 
 ##** 参加步骤**
 
-
-
 在 GitHub 上 fork 到自己的仓库，如 docker_user/docker_practice，然后 clone 到本地，并设置用户信息。
 修改代码后提交，并推送到自己的仓库。
 定期使用项目仓库内容更新自己仓库内容。
 
 
 ##**感谢贡献者**
-
-
 
 
 
