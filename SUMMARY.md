@@ -34,6 +34,7 @@
            * 节点
            * 集群和网络
            * 跨机房数据复制XDR
+           * 客户端
        * [监控](deployment/operations/jian_kong.md)
    * [参考手册](deployment/reference/can_kao_shou_ce.md)
        * [配置参考](deployment/reference/pei_zhi_can_kao.md)
