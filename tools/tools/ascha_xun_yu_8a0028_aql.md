@@ -80,3 +80,22 @@ aql> explain select * from test.uqr where PK=1
 }
 ]
 ```
+
+
+
+Where:
+
+* “SET” is the set name for the record.
+* “DIGEST” is the digest for the record.
+* “NAMESPACE” is the namespace for the record.
+* “PARTITION” is the partition where the record lives. The partition value is between 1 and 4095.
+* “STATUS” is the status of the operation. It will be the code as returned by the client for the record. E.g: 0 is AEROSPIKE_OK and 2 is AEROSPIKE_ERR_RECORD_NOT_FOUND. See here for list of generic error codes in C - Error Codes.
+* “UDF” tells if the AQL command was run as part of a UDF.
+* “TIMEOUT” is the timeout for the AQL command.
+* “NODE” is the ID of the node where the master record currently lives. The node ID might change during migrations.
+* “POLICY” is the replica read policy that the client can set when reading the record. Two possible values are:
+    1) AS_POLICY_REPLICA_MASTER (which is by default) to set the reads to go only to it's master copy and, 
+    2) AS_POLICY_REPLICA_ANY to read in a roundrobin operation on all it's replica copies. Set the policy to AS_POLICY_REPLICA_ANY by executing set replica_any true in AQL.
+* “KEY POLICY” indicates whether the client had sent the key and digest to the server or just the digest. Two possible values are:
+    1) AS_POLICY_KEY_SEND if the key was sent along with the digest, and
+    2) AS_POLICY_KEY_DIGEST if only the digest was sen
