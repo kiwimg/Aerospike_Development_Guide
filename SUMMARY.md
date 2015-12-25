@@ -13,7 +13,7 @@
    * [操作手册](deployment/operations/cao_zuo_shou_ce.md)
        * [概要](deployment/operations/gai_yao.md)
        * [规划](deployment/operations/ji_hua.md)
-           * [Linux 容量规划](deployment/operations/linux_rong_liang_gui_hua.md)
+           * [存储 容量规划](deployment/operations/linux_rong_liang_gui_hua.md)
            * [服务器硬件要求](deployment/operations/fu_wu_qi_ying_jian_yao_qiu.md)
            * [flash存储要求](deployment/operations/flashcun_chu_yao_qiu.md)
            * [网络要求](deployment/operations/wang_luo_yao_qiu.md)
