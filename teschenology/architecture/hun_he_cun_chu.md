@@ -9,6 +9,11 @@ aerospike数据可以存储在DRAM中，传统的介质，和SSD数据，并且�
 
 记录的数据被存储在一起。每行的存储量是默认为1MB大小的
 
-存储为写时复制技术，有免费的空间被回收的碎片整理过程
+存储采用写时复制技术，并且通过碎片整理过程将回收空余的空间
 
 Storage is copy-on-write, with free space being reclaimed by the defragmentation process.
+
+
+每个namespace配置有存储的固定量。每个节点必须具有在每个服务器相同的名称namespace和存储相同量的每个命名空间
+
+每个名称空间配置了一个固定大小的存储空间。每个节点必须具有相同的名称空间和相同数量的存储为每个名称空间
