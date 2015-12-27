@@ -1,6 +1,14 @@
 # 混合存储
 混合存储系统拥有存储在每个节点中的索引和数据，并处理与物理存储相互作用。它还包含模块，自动从数据库中删除旧数据，并整理物理存储优化磁盘使用情况。
 
-aerospike可以存储在DRAM中，传统的介质，和SSD数据，并且每个namespace[命名空间]能分别配置。这种配置的灵活性允许应用开发者把一个在DRAM经常访问的一个小空间，而是把更大的空间在成本较低的存储这样的SSD。
+aerospike数据可以存储在DRAM中，传统的介质，和SSD数据，并且每个namespace[命名空间]能分别配置。这种配置的灵活性，允许应用开发者把一个经常访问的namespace放在DRAM，而是把更大的空间在成本较低的存储,例如SSD。
+
+并优化数据存储在SSD上,包括绕过文件系统利用低级SSD读写模式。
 
 ###原理
+
+记录的数据被存储在一起。每行的存储量是默认为1MB大小的
+
+存储为写时复制技术，有免费的空间被回收的碎片整理过程
+
+Storage is copy-on-write, with free space being reclaimed by the defragmentation process.
